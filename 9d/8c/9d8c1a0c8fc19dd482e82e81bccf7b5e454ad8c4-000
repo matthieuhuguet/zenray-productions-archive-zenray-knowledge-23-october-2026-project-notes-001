@@ -4325,3 +4325,24 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:33:34 +0200)
 
 > Le cycle automatique fonctionne : 1 737 sections ont reçu leurs clés pour 2,79 $, et le lot suivant est parti seul. Il reste toutefois 263 échecs (13 %), qui repartiraient indéfiniment. J'enregistre maintenant la raison de chaque échec et je plafonne les nouvelles tentatives. (24 October 2026, 01:33:34 +0200)
+
+## 24 October 2026, 01:34:50 +0200 : Iteration
+
+<!-- feedback-event:52bae125ce005134d4551823dc80566f4b1e7732b236a7d450cfc45d61cf287c (24 October 2026, 01:34:50 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 01:34:50 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:34:50 +0200)
+
+> ZenRay Knowledge lit désormais tout le texte de ton Mac et se met à jour seul. Le service `com.zenray.knowledge` rafraîchit l'index toutes les 30 minutes, de sorte qu'un fichier nouveau y entre sans attendre la passe de 6 heures. Toutes les 10 minutes, il envoie aussi à Sonnet 5.5 des lots de passages, pour lesquels Sonnet écrit les questions auxquelles chacun répond. Ces questions servent seulement de clés de recherche, jamais de réponses, et la dépense s'arrête d'elle-même à 90 $. (24 October 2026, 01:34:50 +0200)
+>
+> Les mesures montrent que la bonne section était bien parmi les candidats, mais que le reclassement par Haiku la perdait. C'est donc Sonnet qui reclasse désormais, en voyant les questions générées de chaque passage. Les questions générées n'ont presque rien changé par elles-mêmes sur les questions de test, volontairement vagues ; elles servent surtout au reclassement. En chemin, j'ai trouvé un bug silencieux : le cycle des clés tombait à la même seconde que la lecture des questions du site et était abandonné à chaque fois, sans une ligne de journal. Les tâches passent maintenant par une file d'attente, et chacune laisse une trace. (24 October 2026, 01:34:50 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (24 October 2026, 01:34:50 +0200)
+> |---|---|---| (24 October 2026, 01:34:50 +0200)
+> | Tout scanner : tmp, Memory, Claude Code, Productions | Oui | 13 659 fichiers et 64 564 sections dans l'index, plus 1 124 questions tirées des conversations | (24 October 2026, 01:34:50 +0200)
+> | Suivre chaque nouveau fichier | Oui | Le rafraîchissement de 00h51 a repris 18 fichiers modifiés sans intervention | (24 October 2026, 01:34:50 +0200)
+> | Dresser les questions de tout le corpus avec Sonnet, sans arrêt | En cours | Environ 22 % des passages couverts, 11,40 $ dépensés ; un lot de 2 000 passages part seul toutes les 10 minutes, et il faut environ 10 heures pour finir | (24 October 2026, 01:34:50 +0200)
+> | Répondre à n'importe quelle question passée | Mieux, pas encore à 99,9 % | Bonne section dans les 5 premiers résultats 72,5 % du temps (60 % avant), bon fichier 87,5 % (80 % avant), sur 40 questions vagues ; avec des réponses mélangées, le score tombe à 0, donc la mesure est fiable | (24 October 2026, 01:34:50 +0200)
+> | Ne jamais échouer en silence | Oui | Le service note chaque tâche ; les 13 % de passages refusés par le modèle sont enregistrés avec leur raison, repartent seuls, puis sont abandonnés après deux échecs | (24 October 2026, 01:34:50 +0200)
+> | Site et consignation | Oui | Le site sert le nouveau code (`index-Bm3mImWF.js`) ; commits poussés ; skill, README, journal et Assets à jour | (24 October 2026, 01:34:50 +0200)
+>
+> Quand la couverture sera complète, je relancerai les deux bancs de test (`Verify.mjs` et `PoolBench.mjs`) pour voir si le reclassement gagne encore. Reste aussi un geste de ton côté, en suspens depuis hier : révoquer les deux clés API que tu as collées dans le chat et en recréer une par `SetApiKey.mjs`. (24 October 2026, 01:34:50 +0200)
