@@ -1,0 +1,15 @@
+# ZenRay Knowledge : project knowledge (23 October 2026)
+
+- Project ID: zenray-knowledge-23-october-2026. (23 October 2026)
+- Canonical feedback: /Users/zenray/.claude/Memory1/Projects/zenray-knowledge-23-october-2026/FEEDBACK.md. (23 October 2026)
+- Append dated decisions and verified knowledge here; retain existing entries. (23 October 2026)
+
+## État au 23 October 2026, 21:15 (V2 livrée)
+
+- Ce que c'est : un onglet Knowledge du site ZenRayProgress (entre Plan et Sport) et une commande, qui retrouvent les questions déjà posées par Matthieu (Claude, Codex, Gemini) et répondent depuis Memory avec une preuve (fichier et ligne). Aucune connaissance propre : les sources restent Memory1, rules, CLAUDE.md et les transcripts. (23 October 2026)
+- Usage : `node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/knowledge.mjs ask "<question>"`, ou l'onglet Knowledge (bouton « Poser », réponse en moins de 10 s quand le Mac est allumé). Skill : `zenray-knowledge`. (23 October 2026)
+- Méthode choisie après une batterie de 18 méthodes (feuille : `/Users/zenray/.claude/tmp/tmp-zenray-knowledge-23-october-2026/MethodSheet.md`) : voie 1 plein texte FTS5 sur les vraies questions (97,5 % sans modèle, 100 % avec mots-clés) ; voie 2 mots-clés Haiku, FTS5 mots et racines, reclassement Haiku, réponse prouvée (bon fichier dans le top 5 : 90 %, environ 5 s). Contrôle rouge à 0 %. (23 October 2026)
+- V1 abandonnée : questions générées par Haiku et recopiées dans Questions1.md, seconde vérité, 10 % de rappel sur des questions réelles ; archivée dans `Memory1/Knowledge/archive/` ; environ 2 $ dépensés avant l'arrêt. (23 October 2026)
+- Index local : `~/Library/Application Support/ZenRayKnowledge/knowledge.db` (7 085 sections, 1 120 questions, environ 80 s, sans IA). Service `com.zenray.knowledge`, port 3103, reconstruit à 0, 6, 12, 18 h et répond aux questions du site. Hook UserPromptSubmit actif dans `~/.claude/settings.json`. (23 October 2026)
+- Modèle : Claude Haiku 5.5 par l'API (crédit de l'organisation, clé dans `~/Library/Application Support/ZenRayKnowledge/.env`, droits 600). La clé a été collée dans le chat le 23 October 2026 : elle a été retirée du FEEDBACK.md avant tout commit, mais elle reste dans les transcripts locaux ; elle doit être révoquée et remplacée par `SetApiKey.mjs`. (23 October 2026)
+- Code : `ZenRayProgress/scripts/Knowledge/` (lib/Index, Engine, Model, Validate, Sources, Publish ; bench/ ; Main, Daemon, SetApiKey), `src/knowledge/`, `src/lib/knowledgeIndex.js` ; dernier commit `cad37cea` sur origin/main, déployé. Thème : gabarit `zenray-edit/templates/liquid-glass`, verre V9 du site. (23 October 2026)
