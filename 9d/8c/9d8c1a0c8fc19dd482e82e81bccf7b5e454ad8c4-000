@@ -4283,3 +4283,37 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:52:36 +0200)
 
 > Le service est relancé avec la trace de ses tâches. Un lot de 2 000 sections (environ 2,67 $) est déjà parti à la main. J'attends le premier cycle automatique, prévu dans 10 minutes, pour savoir si le blocage revient. (24 October 2026, 00:52:36 +0200)
+
+## 24 October 2026, 01:22:32 +0200 : Prompt
+
+<!-- feedback-event:a3e677200feab61f2b8ce89afc452b54cee6b44fcf52d3fbd2e685f07c7e1a05 (24 October 2026, 01:22:32 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (24 October 2026, 01:22:32 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:22:32 +0200)
+
+> <task-notification> (24 October 2026, 01:22:32 +0200)
+> <task-id>b0g239ctp</task-id> (24 October 2026, 01:22:32 +0200)
+> <summary>Monitor event: "Watch service jobs after the restart"</summary> (24 October 2026, 01:22:32 +0200)
+> <event>[Monitor expired after 30m with no events delivered. Re-arm it if you still need the watch — and widen the filter if silence was unexpected.]</event> (24 October 2026, 01:22:32 +0200)
+> </task-notification> (24 October 2026, 01:22:32 +0200)
+
+## 24 October 2026, 01:23:08 +0200 : Iteration
+
+<!-- feedback-event:8c94181d85f9499ab6d4f0f9f1dd47df060db8f6c1f7ca94c7201ed88a1d6a76 (24 October 2026, 01:23:08 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 01:23:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:23:08 +0200)
+
+> J'ai trouvé la cause : deux minuteries de 10 minutes se déclenchaient à la même seconde, et la seconde tâche était abandonnée sans trace. Le correctif (une file d'attente) est en service, et j'attends la ligne `keys:` dans le journal pour le confirmer. (24 October 2026, 01:23:08 +0200)
+
+## 24 October 2026, 01:33:11 +0200 : Prompt
+
+<!-- feedback-event:f3357fa8904cbbac6354f2f69eaa8e4628c67f313d32aafa0f37341302d9313f (24 October 2026, 01:33:11 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (24 October 2026, 01:33:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:33:11 +0200)
+
+> <task-notification> (24 October 2026, 01:33:11 +0200)
+> <task-id>b8suqio92</task-id> (24 October 2026, 01:33:11 +0200)
+> <summary>Monitor event: "Watch for the first automatic keys cycle"</summary> (24 October 2026, 01:33:11 +0200)
+> <event>2026-10-23T23:33:10.989Z keys: {"collected":{"collected":1,"sections":1737,"failed":263,"usd":2.7918,"spentUsd":11.4017},"submitted":{"batch":"msgbatch_01LHG8mTjwMmXKiGysEgyR7V","sections":2000,"requests":168,"projectedUsd":2.58}} (24 October 2026, 01:33:11 +0200)
+> 2026-10-23T23:33:10.989Z keys ended after 8 s</event> (24 October 2026, 01:33:11 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (24 October 2026, 01:33:11 +0200)
+> </task-notification> (24 October 2026, 01:33:11 +0200)
