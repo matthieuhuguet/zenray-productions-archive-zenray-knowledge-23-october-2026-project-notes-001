@@ -4118,3 +4118,19 @@
 > Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (23 October 2026, 23:10:41 +0200)
 >
 > The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (23 October 2026, 23:10:41 +0200)
+
+## 23 October 2026, 23:25:30 +0200 : Iteration
+
+<!-- feedback-event:1b08349caa67c79d7ef0cc157600981e7e31b57e963f69baab21266da8cf1f24 (23 October 2026, 23:25:30 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (23 October 2026, 23:25:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 23:25:30 +0200)
+
+> La recherche mémoire remonte (fichier juste dans le top 5 : 0,725 → 0,825 avec un étage « Memory d'abord ») ; je passe au pilote des questions générées par Sonnet. (23 October 2026, 23:25:30 +0200)
+
+## 23 October 2026, 23:27:00 +0200 : Iteration
+
+<!-- feedback-event:09d387bace73a2eee0692dd9fa1b4d76ce8b2b81bf066d66268ead206d31b51f (23 October 2026, 23:27:00 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (23 October 2026, 23:27:00 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 23:27:00 +0200)
+
+> Je lance un premier petit lot Sonnet (24 passages de Memory) pour valider le format et le coût réel avant le gros pilote. (23 October 2026, 23:27:00 +0200)
