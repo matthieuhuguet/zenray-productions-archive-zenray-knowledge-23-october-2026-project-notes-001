@@ -4231,3 +4231,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:14:00 +0200)
 
 > Avec Sonnet comme reclasseur : bonne section dans le top 5 0,625 → 0,70, bon fichier 0,80 → 0,875. J'essaie maintenant un lot de candidats plus large (40). (24 October 2026, 00:14:00 +0200)
+
+## 24 October 2026, 00:23:33 +0200 : Iteration
+
+<!-- feedback-event:35073322630c4d3776f9b1a82676e7842f1dac5455575f6a9c278e4d6cc789f9 (24 October 2026, 00:23:33 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 00:23:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:23:33 +0200)
+
+> Je consigne la V3 (README de la mémoire, journal, Assets) pendant que le service lance ses lots de clés. (24 October 2026, 00:23:33 +0200)
+
+## 24 October 2026, 00:23:50 +0200 : Iteration
+
+<!-- feedback-event:741fd90c271590de2562be0a272614876e4400f3630349b07301c6b1ee95173f (24 October 2026, 00:23:50 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 00:23:50 +0200)
+- Source: checkpoint:claude:11264bd4-8a19-4e76-b9be-dc012304e419. (24 October 2026, 00:23:50 +0200)
+
+> Knowledge V3 en service : corpus du Mac entier indexé en incrémental, clés Sonnet par lots avec plafond 90 USD (8,61 USD dépensés, 14 % couvert), reclassement Sonnet. Voie 2 top 5 0,725 et fichier 0,875, rouge à 0. Prochain : laisser le service finir les clés puis remesurer. (24 October 2026, 00:23:50 +0200)
+
+## 24 October 2026, 00:23:58 +0200 : Iteration
+
+<!-- feedback-event:63bacc8fe2d1a3af735a5850d91b4525fe547b66dd843761d89e179c5a898f45 (24 October 2026, 00:23:58 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 00:23:58 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:23:58 +0200)
+
+> La consignation est faite (journal, Assets, README, skill). Il ne reste qu'une preuve à obtenir : voir le service soumettre seul son premier lot de clés, prévu vers 00h31. (24 October 2026, 00:23:58 +0200)
