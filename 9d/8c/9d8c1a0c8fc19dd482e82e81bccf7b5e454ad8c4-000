@@ -3562,3 +3562,559 @@
 > ``` (23 October 2026, 21:13:29 +0200)
 >
 > Pour le reste, ZenRay Knowledge est prêt : onglet Knowledge, ou `knowledge.mjs ask "ta question"` en terminal. (23 October 2026, 21:13:29 +0200)
+
+## 23 October 2026, 22:52:57 +0200 : Prompt
+
+<!-- feedback-event:7c182e6bd40c76a48d2589d44334f9d61604d0faa1f96a6d0f1cbe98c7e75d26 (23 October 2026, 22:52:57 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 22:52:57 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:52:57 +0200)
+
+> En fait, c'est surtout est-ce que Zenrei Knowledge à date il répond à toutes les questions qui ont été mises dans Zenrei Memory et notamment dans Mathieu Context. /matthieu-context ? Sachant que le dossier memory est énorme, il faut vraiment run à l'infini pour l'instant Haiku, mais normalement le Haiku doit toujours finir, donc donne-moi son statut actuel. (23 October 2026, 22:52:57 +0200)
+
+## 23 October 2026, 22:53:45 +0200 : Iteration
+
+<!-- feedback-event:eeaa6aee60783cadba24567f992aec2c7d68a312de7b5ef92d5e3145413ffb8f (23 October 2026, 22:53:45 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (23 October 2026, 22:53:45 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:53:45 +0200)
+
+> Oui, Knowledge répond déjà sur toute ta mémoire, Matthieu1 compris, et il n'a plus besoin de faire tourner Haiku en continu. (23 October 2026, 22:53:45 +0200)
+>
+> La V2 ne lit plus ta mémoire à l'avance avec Haiku. C'était la V1, qui aurait mis environ 17 heures à recopier Memory, et je l'ai arrêtée. La V2 indexe directement le texte de tous tes fichiers, en 80 secondes environ, sans IA et sans frais. Haiku n'intervient qu'au moment où tu poses une question, en 5 secondes environ, et il s'arrête dès qu'il a répondu. Il n'y a donc plus de file à vider : toute ta mémoire est couverte dès maintenant. (23 October 2026, 22:53:45 +0200)
+>
+> | Ce que tu demandes | Statut | Mesure | (23 October 2026, 22:53:45 +0200)
+> |---|---|---| (23 October 2026, 22:53:45 +0200)
+> | Tout Memory est-il couvert ? | Oui | 517 fichiers, découpés en 7 085 sections, tous dans l'index | (23 October 2026, 22:53:45 +0200)
+> | Matthieu1 est-il couvert ? | Oui, en entier | Ses 10 811 lignes forment 1 004 sections | (23 October 2026, 22:53:45 +0200)
+> | Les questions écrites dans Matthieu1 sont-elles retrouvées ? | Oui, 96,5 % | Sur 115 questions, la bonne section sort dans les 5 premiers résultats, sans modèle (41 % en premier) ; avec Haiku, la recherche est plus précise encore | (23 October 2026, 22:53:45 +0200)
+> | Haiku tourne-t-il encore ? | Non, il n'y a plus rien à vider | Seul le service tourne (un processus) ; il appelle Haiku uniquement quand une question arrive | (23 October 2026, 22:53:45 +0200)
+> | L'index suit-il Memory quand elle change ? | Oui | Reconstruit à 0 h, 6 h, 12 h et 18 h, ou à la demande avec « Mettre à jour » | (23 October 2026, 22:53:45 +0200)
+>
+> J'ai aussi supprimé les restes de la V1 : 11 Mo de morceaux de Memory recopiés pour l'ancienne lecture, ainsi qu'un fichier d'index à moitié construit. Il n'existe plus aucune copie de ta mémoire en dehors de Memory. (23 October 2026, 22:53:45 +0200)
+>
+> Une limite tout de même : le journal « déjà posé » ne contient pour l'instant que les questions de tes conversations. Les questions que tu as écrites directement dans tes fichiers Memory sont retrouvées par la recherche, mais elles n'apparaissent pas encore dans cette liste avec leur date. (23 October 2026, 22:53:45 +0200)
+
+## 23 October 2026, 22:56:42 +0200 : Prompt
+
+<!-- feedback-event:e41ba6acb51795c1740ca70f3e8f1d84e966d8f28929f1acfcbf20cf7990991a (23 October 2026, 22:56:42 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 22:56:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:56:42 +0200)
+
+> Oui ajoute tout n'omet rien ...  (23 October 2026, 22:56:42 +0200)
+> les projets tmp / le dossier memory  (23 October 2026, 22:56:42 +0200)
+> /claude-md-global bref tout ce qui est lié à claude code ... Et à mon développement global. /think-of-everything Tu peux scanner intégralement mon disque pour être sûr de rien oublier. Mais globalement, Claude.md va déjà t'aider à faire un inventaire de tout. /progress Mais le but à terme, c'est aussi de voir dès qu'il y a un nouveau fichier qui apparaît, de le traquer et de générer directement toutes les questions auxquelles soit la conversation, soit les fichiers répondent. Le but en fait, c'est que ZenReKnowledge il puisse répondre à n'importe quelle question d'un truc qui aurait été fait sur mon ordinateur. Donc en fait, tu peux aussi lire directement le fichier progress, mais ce sera pas suffisant. Donc en fait, il faut vraiment que tu fasses une méthodologie qui scanne absolument tout et qui répond à toutes les questions qui ont déjà été posées. Et c'est là où toi déjà, tu dois faire tout un travail de recherche dans le passé pour mettre à jour le futur qui puisse anticiper les futures questions qui vont s'ajouter de manière progressive. Et chaque jour en fait, on ajoute énormément de questions. Donc il faut que le workflow /l'algo / le skill soit extrêmement solide. /dont-stop (23 October 2026, 22:56:42 +0200)
+
+## 23 October 2026, 22:57:03 +0200 : Prompt
+
+<!-- feedback-event:aee116fd41eb8f50c43341b61bd9e6559e36eb15b15311133b44b0c3d2c16f98 (23 October 2026, 22:57:03 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 22:57:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:57:03 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/claude-md-global (23 October 2026, 22:57:03 +0200)
+>
+> # La doctrine globale : la porte, pas le fichier (23 October 2026, 22:57:03 +0200)
+>
+> ## Ce qui a changé le 2026-09-15, et qu'il faut savoir avant tout le reste (23 October 2026, 22:57:03 +0200)
+>
+> `CLAUDE.md` pesait **218 431 octets** et dépassait la limite de **65 536 octets** du contexte de (23 October 2026, 22:57:03 +0200)
+> délégation aux sous-agents : il était donc **tronqué en silence**, ce qui est pire qu'une règle (23 October 2026, 22:57:03 +0200)
+> absente puisque rien ne le signale. Il pèse désormais **50 320 octets**, avec 15 216 de marge, et ne (23 October 2026, 22:57:03 +0200)
+> porte plus que les concepts. (23 October 2026, 22:57:03 +0200)
+>
+> Le texte intégral, rien de résumé ni de supprimé, vit dans **douze fichiers anglais** (23 October 2026, 22:57:03 +0200)
+> `~/.claude/rules/<Name>1.md`. Le contrôle d'intégrité a comparé le résultat à la sauvegarde : 88 (23 October 2026, 22:57:03 +0200)
+> titres sur 88 et 1 841 lignes de contenu sur 1 841 retrouvés. (23 October 2026, 22:57:03 +0200)
+>
+> | Fichier | Ce qu'il gouverne | Octets | (23 October 2026, 22:57:03 +0200)
+> |---|---|---| (23 October 2026, 22:57:03 +0200)
+> | `CardinalValues1.md` | doute, légitimité, report conditionnel, paliers, levier, objectifs, LifeOS, agency | 39 167 | (23 October 2026, 22:57:03 +0200)
+> | `Tone1.md` | ton, verbosité, prose française, récap, plan, clarification | 27 535 | (23 October 2026, 22:57:03 +0200)
+> | `Toolbox1.md` | parallélisme, encodage, CDN, quotas, git, scripts, déploiement, commandes | 26 586 | (23 October 2026, 22:57:03 +0200)
+> | `ParametricHda1.md` | loi HDA, valeur en dur, duplication, jetons, valeurs système | 23 562 | (23 October 2026, 22:57:03 +0200)
+> | `GameAndShipping1.md` | jeu, Unreal, devlog, tranche verticale, publier, périmètre | 20 136 | (23 October 2026, 22:57:03 +0200)
+> | `SkillsIndex1.md` | index auto-généré des skills personnels | 17 219 | (23 October 2026, 22:57:03 +0200)
+> | `SkillsAndMemory1.md` | skills, synchronisation, mémoire, PROGRESS.md, reprise | 16 591 | (23 October 2026, 22:57:03 +0200)
+> | `SilentBugs1.md` | bugs invisibles : ancêtres CSS, portails, thèmes, cache, erreur avalée | 14 179 | (23 October 2026, 22:57:03 +0200)
+> | `Typography1.md` | police, graisse, taille, webfont, icônes, jetons visuels, curseurs | 13 461 | (23 October 2026, 22:57:03 +0200)
+> | `ZenRayProjects1.md` | les trois entités ZenRay, domaines, Japon 2027, PVT, chantiers | 11 184 | (23 October 2026, 22:57:03 +0200)
+> | `JapaneseRules1.md` | règles japonaises : leçon, drill, sauvegarde. La matière est dans Memory1 | 8 145 | (23 October 2026, 22:57:03 +0200)
+> | `ShowYourWork1.md` | montrer son travail : promotion, ads, organique, audience, handles | 5 754 | (23 October 2026, 22:57:03 +0200)
+>
+> ## PRIORITÉ 0 : LE CHARGEMENT SE CALCULE, IL NE SE DEVINE PAS (23 October 2026, 22:57:03 +0200)
+>
+> Devant toute demande sérieuse, **avant de répondre** : (23 October 2026, 22:57:03 +0200)
+>
+> ```bash (23 October 2026, 22:57:03 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/which-rule.mjs "<le texte de la demande>" (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> Il rend les fichiers de doctrine à charger, par ordre de pertinence, les termes qui ont déclenché, et (23 October 2026, 22:57:03 +0200)
+> les fichiers de mémoire de projet à ouvrir en même temps. Quand rien ne se déclenche, il le dit : le (23 October 2026, 22:57:03 +0200)
+> noyau de `CLAUDE.md` suffit alors. (23 October 2026, 22:57:03 +0200)
+>
+> **Un seul terme suffit à déclencher un fichier**, et le vocabulaire est délibérément sur-inclusif, (23 October 2026, 22:57:03 +0200)
+> **829 termes** en français, en anglais et dans les tournures que Matthieu emploie réellement, y (23 October 2026, 22:57:03 +0200)
+> compris « je suis nul », « une fois sur deux », « tu me saoules » ou « c'est pas sorcier ». (23 October 2026, 22:57:03 +0200)
+>
+> > **La règle qui prime sur l'économie de tokens** : mieux vaut charger un fichier pour rien que rater (23 October 2026, 22:57:03 +0200)
+> > la doctrine qui gouverne la demande. Lire deux fois le même fichier dans une session ne coûte (23 October 2026, 22:57:03 +0200)
+> > presque rien ; répondre à côté de la doctrine coûte un aller-retour entier, et parfois une décision (23 October 2026, 22:57:03 +0200)
+> > fausse. **Dans le doute, on charge.** (23 October 2026, 22:57:03 +0200)
+>
+> ```bash (23 October 2026, 22:57:03 +0200)
+> node .../which-rule.mjs --all              # tous les fichiers et leur nombre de termes (23 October 2026, 22:57:03 +0200)
+> node .../which-rule.mjs --terms <fichier>  # le vocabulaire complet d'un fichier (23 October 2026, 22:57:03 +0200)
+> grep -n "<mot>" ~/.claude/rules/*.md       # les triggers sont aussi inscrits dans les fichiers (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> Le vocabulaire vit dans `~/.claude/rules/triggers.json` et il est aussi inscrit en tête de chaque (23 October 2026, 22:57:03 +0200)
+> fichier, entre `TRIGGERS:START` et `TRIGGERS:END`, pour qu'un simple `grep` le trouve. Contrat HDA : (23 October 2026, 22:57:03 +0200)
+> le script est la définition, `triggers.json` son interface de paramètres, aucun terme n'est écrit en (23 October 2026, 22:57:03 +0200)
+> dur dans le code. (23 October 2026, 22:57:03 +0200)
+>
+> **Quand une règle nouvelle entre, son vocabulaire entre avec elle.** Sans terme déclencheur, un (23 October 2026, 22:57:03 +0200)
+> fichier ne se charge jamais et devient un décor : on croit les règles actives alors qu'elles dorment. (23 October 2026, 22:57:03 +0200)
+>
+> ## Le lien avec la mémoire de projet, `~/.claude/Memory1` (23 October 2026, 22:57:03 +0200)
+>
+> Les deux corpus ne répondent pas à la même question et ne se remplacent jamais. **Les règles disent (23 October 2026, 22:57:03 +0200)
+> COMMENT travailler, la mémoire dit ce que le PROJET sait.** Une demande sérieuse ouvre souvent les (23 October 2026, 22:57:03 +0200)
+> deux, et le routeur nomme les fichiers de mémoire liés à chaque doctrine. (23 October 2026, 22:57:03 +0200)
+>
+> | Mémoire | Doctrine qui l'appelle | (23 October 2026, 22:57:03 +0200)
+> |---|---| (23 October 2026, 22:57:03 +0200)
+> | `Identity/Matthieu1.md` (547 Ko, routeur `matthieu-context`) | `CardinalValues1.md`, `Tone1.md`, `ZenRayProjects1.md`, `SkillsAndMemory1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Japanese/Japanese1.md` (491 Ko, routeur `japanese-context`) | `JapaneseRules1.md` | (23 October 2026, 22:57:03 +0200)
+> | `ZenRayShards/ZenRayShards1.md` (138 Ko, routeur `zenrayshards-context`) | `GameAndShipping1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Design/Design1.md` | `Typography1.md`, `SilentBugs1.md`, `ParametricHda1.md`, `Toolbox1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Business/Business1.md`, `Business/Freelance1.md` | `CardinalValues1.md`, `ZenRayProjects1.md`, `ShowYourWork1.md` | (23 October 2026, 22:57:03 +0200)
+> | `HealthSport/HealthSport1.md` | `CardinalValues1.md` | (23 October 2026, 22:57:03 +0200)
+> | `SocialMedia/SocialMedia1.md` | `ShowYourWork1.md`, `ZenRayProjects1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Houdini/Houdini1.md`, `Substance/Substance1.md` | `ParametricHda1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Animation/Animation1.md`, `UnrealEngine/UnrealEngine1.md`, `ZenRayProductions/LouisianaBayou/LouisianaBayou1.md` | `GameAndShipping1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Culture/Culture1.md` | `JapaneseRules1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Storytelling/Storytelling1.md` | `Tone1.md` | (23 October 2026, 22:57:03 +0200)
+> | `Mails/Mails1.md` (index + un fichier par jour, `Année/Mois/Mails_<date>.md`) | `SkillsAndMemory1.md` | (23 October 2026, 22:57:03 +0200)
+> | `AudioProductions/Audio1.md`, `Stock/Stock1.md` | `Toolbox1.md` | (23 October 2026, 22:57:03 +0200)
+>
+> **Le cas japonais demande une vigilance particulière**, parce que deux fichiers se ressemblent sans (23 October 2026, 22:57:03 +0200)
+> porter la même chose. `rules/JapaneseRules1.md` porte les RÈGLES, la manière d'enseigner et de (23 October 2026, 22:57:03 +0200)
+> sauvegarder ; `Memory1/Japanese/Japanese1.md` porte la MATIÈRE, les leçons, les kanji, le (23 October 2026, 22:57:03 +0200)
+> vocabulaire et les jauges. On ne les confond pas, et on n'écrit jamais l'un dans l'autre. (23 October 2026, 22:57:03 +0200)
+>
+> Les trois gros fichiers ne se lisent **jamais** en entier : leurs skills routeurs trouvent la section (23 October 2026, 22:57:03 +0200)
+> utile. La chronologie est ailleurs et reste unique, `~/.claude/PROGRESS.md`, écrite par le skill (23 October 2026, 22:57:03 +0200)
+> `progress` ; une connaissance durable va d'abord dans le bon `Memory1/**/<Nom>1.md`, puis l'entrée du (23 October 2026, 22:57:03 +0200)
+> journal cite ce chemin sans recopier le détail. (23 October 2026, 22:57:03 +0200)
+>
+> ## Les chemins, une fois pour toutes (23 October 2026, 22:57:03 +0200)
+>
+> ``` (23 October 2026, 22:57:03 +0200)
+> /Users/zenray/.claude/CLAUDE.md          les concepts, lus à chaque session (23 October 2026, 22:57:03 +0200)
+> /Users/zenray/.claude/rules/             les douze fichiers de doctrine + INDEX1.md + triggers.json (23 October 2026, 22:57:03 +0200)
+> /Users/zenray/.claude/Memory1/           la mémoire de projet, un <Nom>1.md par domaine (23 October 2026, 22:57:03 +0200)
+> /Users/zenray/.claude/PROGRESS.md        la chronologie unique, append only (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> `~/.codex/AGENTS.md` et les quatre fichiers Gemini sont **générés** depuis `CLAUDE.md` par (23 October 2026, 22:57:03 +0200)
+> `zsh ~/.claude/skills/skill-sync/scripts/mirror-agents.sh`, jamais édités ; ils héritent donc de (23 October 2026, 22:57:03 +0200)
+> l'allègement, et tiennent à 48 301 octets. Attention, ce script est en zsh et utilise `print` : (23 October 2026, 22:57:03 +0200)
+> lancé avec `bash`, il échoue à la ligne 12. Les skills, eux, sont partagés par lien symbolique, (23 October 2026, 22:57:03 +0200)
+> `~/.gemini/config/skills` pointant vers `~/.claude/skills`. (23 October 2026, 22:57:03 +0200)
+>
+> ## Contexte des mails : charger et décharger (2026-09-30) (23 October 2026, 22:57:03 +0200)
+>
+> Les mails envoyés ou reçus qui comptent sont sauvegardés dans `~/.claude/Memory1/Mails/`, un fichier par (23 October 2026, 22:57:03 +0200)
+> jour : `<Année>/<MM-Month>/Mails_<YYYY-MM-DD>.md` (mois en anglais). L'index vit dans `Mails/Mails1.md`. (23 October 2026, 22:57:03 +0200)
+>
+> - **Charger** quand Matthieu demande le contexte des mails : lire `Mails/Mails1.md` (le tableau seul), (23 October 2026, 22:57:03 +0200)
+>   puis ouvrir UNIQUEMENT le fichier du jour utile. Ne jamais lire tout le dossier. (23 October 2026, 22:57:03 +0200)
+> - **Décharger** dès que le sujet change : ne plus rien relire des mails, et ne pas les recopier ailleurs. (23 October 2026, 22:57:03 +0200)
+> - **Absent de l'index ?** Aller le lire directement par le MCP Gmail (`search_threads`, `get_message` (23 October 2026, 22:57:03 +0200)
+>   en `PLAIN_TEXT`), puis le sauvegarder : (23 October 2026, 22:57:03 +0200)
+>   `python3 ~/.claude/Memory1/Mails/Scripts/save_mail.py <mails.json>` (idempotent par id de message). (23 October 2026, 22:57:03 +0200)
+> - Le mail réellement ENVOYÉ fait foi, pas le brouillon : relire depuis `in:sent` avant de sauvegarder. (23 October 2026, 22:57:03 +0200)
+> - Un rebond (`mailer-daemon`, 550) s'inscrit dans le champ Status du mail concerné. (23 October 2026, 22:57:03 +0200)
+>
+> ## Décharger une section nouvelle (23 October 2026, 22:57:03 +0200)
+>
+> Le script est la définition, `scripts/rules-plan.json` son interface de paramètres, chaque lot une (23 October 2026, 22:57:03 +0200)
+> instance. On essaie toujours à blanc d'abord. (23 October 2026, 22:57:03 +0200)
+>
+> ```bash (23 October 2026, 22:57:03 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs \ (23 October 2026, 22:57:03 +0200)
+>   --plan ~/.claude/skills/claude-md-global/scripts/rules-plan.json --lot <id> --dry-run (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> Un lot nomme les titres **exacts** des sections à sortir, le fichier cible, et le **noyau** qui les (23 October 2026, 22:57:03 +0200)
+> remplace dans `CLAUDE.md`. Le noyau doit tenir seul : un agent qui ne lit que `CLAUDE.md` doit agir (23 October 2026, 22:57:03 +0200)
+> correctement sans le détail. (23 October 2026, 22:57:03 +0200)
+>
+> ## Le vérificateur ferme le travail (23 October 2026, 22:57:03 +0200)
+>
+> ```bash (23 October 2026, 22:57:03 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/extract-rules.mjs --verify   # poids et pointeurs (23 October 2026, 22:57:03 +0200)
+> node ~/.claude/skills/claude-md-global/scripts/build-rules-index.mjs         # regenere rules/INDEX1.md (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> Il échoue aussi bien sur un dépassement de la limite que sur un pointeur vers un fichier absent, et il (23 October 2026, 22:57:03 +0200)
+> a été éprouvé dans les deux sens, rouge avant la décharge, vert après. À lancer après toute (23 October 2026, 22:57:03 +0200)
+> modification de `CLAUDE.md`, dans le même mouvement, comme un commit suit un correctif. (23 October 2026, 22:57:03 +0200)
+>
+> ## Un piège déjà payé, propre à ce système (23 October 2026, 22:57:03 +0200)
+>
+> `update-skill-index.py` réinjectait **16 Ko** d'index des skills dans `CLAUDE.md` à chaque (23 October 2026, 22:57:03 +0200)
+> `sync-skill.sh`, et le fichier est effectivement repassé à 64 108 octets pendant le chantier. Le (23 October 2026, 22:57:03 +0200)
+> générateur écrit désormais dans `rules/SkillsIndex1.md`. Moralité générale : **tout script qui écrit (23 October 2026, 22:57:03 +0200)
+> dans `CLAUDE.md` doit être vérifié après une décharge**, sinon elle se défait toute seule et (23 October 2026, 22:57:03 +0200)
+> silencieusement. (23 October 2026, 22:57:03 +0200)
+>
+> ## Comment lire, selon le besoin (23 October 2026, 22:57:03 +0200)
+>
+> **Doute sur la MANIÈRE de travailler** → `Tone1.md` et `CardinalValues1.md`, qui gouvernent quelle que (23 October 2026, 22:57:03 +0200)
+> soit la demande. (23 October 2026, 22:57:03 +0200)
+>
+> **Question sur un SUJET précis** → passer par le routeur, puis lire le fichier qu'il nomme. Les (23 October 2026, 22:57:03 +0200)
+> sections de `CLAUDE.md` lui-même sont indexées par ligne dans [INDEX.md](INDEX.md), régénéré par (23 October 2026, 22:57:03 +0200)
+> `node ~/.claude/skills/claude-md-global/scripts/build-index.mjs` et vérifiable par son empreinte. (23 October 2026, 22:57:03 +0200)
+>
+> **Avant d'ÉCRIRE une règle nouvelle** → chercher d'abord. La règle existe déjà une fois sur deux, et (23 October 2026, 22:57:03 +0200)
+> la bonne action est alors de compléter la section existante, jamais d'en ouvrir une seconde sur le (23 October 2026, 22:57:03 +0200)
+> même sujet. Si elle est de priorité 0 et tient en quelques lignes, elle va dans `CLAUDE.md` ; sinon (23 October 2026, 22:57:03 +0200)
+> dans le fichier de son sujet, avec son vocabulaire ajouté à `triggers.json`, et une phrase de renvoi (23 October 2026, 22:57:03 +0200)
+> dans le noyau. (23 October 2026, 22:57:03 +0200)
+>
+> ## Pourquoi un index plutôt qu'une lecture complète (23 October 2026, 22:57:03 +0200)
+>
+> Un fichier de règles ne sert que s'il est lu. Passé une certaine taille il cesse d'être lu et devient (23 October 2026, 22:57:03 +0200)
+> un décor : on croit les règles actives alors qu'elles dorment. Pire encore, au-delà de 65 536 octets (23 October 2026, 22:57:03 +0200)
+> il était tronqué sans le dire. L'index rend la lecture PARTIELLE possible, donc la lecture tout court (23 October 2026, 22:57:03 +0200)
+> probable, et le routeur rend le bon choix automatique plutôt que dépendant de ma mémoire. (23 October 2026, 22:57:03 +0200)
+>
+> ## Erreurs déjà payées (23 October 2026, 22:57:03 +0200)
+>
+> | Erreur | Ce qu'elle coûte | La parade | (23 October 2026, 22:57:03 +0200)
+> |---|---|---| (23 October 2026, 22:57:03 +0200)
+> | Laisser `CLAUDE.md` dépasser 65 536 octets | Il est tronqué en silence, et on croit les règles actives | `--verify` après toute modification | (23 October 2026, 22:57:03 +0200)
+> | Un script qui réécrit `CLAUDE.md` après la décharge | La décharge se défait sans un mot | Vérifier après chaque `sync-skill.sh` | (23 October 2026, 22:57:03 +0200)
+> | Une règle nouvelle sans vocabulaire déclencheur | Le fichier ne se charge jamais, la règle dort | Ajouter les termes à `triggers.json` dans le même mouvement | (23 October 2026, 22:57:03 +0200)
+> | Chercher une règle par `grep` sans lire sa section | On lit une phrase hors contexte et on applique l'inverse | Lire la section entière autour du résultat | (23 October 2026, 22:57:03 +0200)
+> | Écrire une règle sans chercher | Deux sections contradictoires, et personne ne sait laquelle vaut | Chercher dans l'index AVANT d'écrire | (23 October 2026, 22:57:03 +0200)
+> | Éditer `~/.codex/AGENTS.md` | L'édition est écrasée à la synchronisation suivante | N'éditer que `CLAUDE.md`, puis lancer le miroir | (23 October 2026, 22:57:03 +0200)
+> | Économiser un chargement par prudence de tokens | On répond à côté de la doctrine, ce qui coûte bien plus cher | Dans le doute, charger | (23 October 2026, 22:57:03 +0200)
+>
+> ## Projet disponible : google/woff2 (23 October 2026, 22:57:03 +0200)
+>
+> Le projet officiel [google/woff2](https://github.com/google/woff2) est installé localement dans (23 October 2026, 22:57:03 +0200)
+> `/Users/zenray/.claude/tmp/tmp-fonts/google-woff2`. Il fournit les exécutables (23 October 2026, 22:57:03 +0200)
+> `woff2_decompress`, `woff2_compress` et `woff2_info` pour convertir et inspecter des fontes WOFF2. (23 October 2026, 22:57:03 +0200)
+> Les trois commandes sont aussi accessibles directement dans le terminal par des liens installés dans (23 October 2026, 22:57:03 +0200)
+> `/Users/zenray/.local/bin`. (23 October 2026, 22:57:03 +0200)
+>
+> Sur ce Mac, la compilation fiable passe par `xcrun --sdk macosx make -j16 all`. La commande `make` (23 October 2026, 22:57:03 +0200)
+> seule sélectionne le SDK des Command Line Tools 27.0, dont l'éditeur de liens échoue sur les (23 October 2026, 22:57:03 +0200)
+> architectures déclarées ; le SDK Xcode 26.5 utilisé par `xcrun` fonctionne. (23 October 2026, 22:57:03 +0200)
+>
+> `woff2_decompress` produit toujours un fichier `.ttf`. Quand `woff2_info` indique le flavor `OTTO`, (23 October 2026, 22:57:03 +0200)
+> le contenu est une fonte OpenType CFF et le fichier doit être renommé en `.otf` avant installation. (23 October 2026, 22:57:03 +0200)
+> Les fontes utilisateur installées dans `/Users/zenray/Library/Fonts` sont ensuite reconnues par (23 October 2026, 22:57:03 +0200)
+> Font Book sans modifier les fontes système protégées. (23 October 2026, 22:57:03 +0200)
+>
+> ## Règle renforcée : chercher les valeurs système dans leur source de vérité (23 October 2026, 22:57:03 +0200)
+>
+> Cette règle est la porte d’entrée vers la section complète du global (23 October 2026, 22:57:03 +0200)
+> `LES VALEURS SYSTÈME SE CHERCHENT AVANT DE SE DEVINER`. Elle s’applique dès (23 October 2026, 22:57:03 +0200)
+> qu’une valeur du code dépend de macOS, d’un réglage utilisateur, d’un écran, (23 October 2026, 22:57:03 +0200)
+> d’une permission, d’un runtime, d’un fichier de configuration ou d’une (23 October 2026, 22:57:03 +0200)
+> application externe. (23 October 2026, 22:57:03 +0200)
+>
+> Un correctif ne choisit jamais une hauteur, une position, une marge, une taille (23 October 2026, 22:57:03 +0200)
+> de fenêtre ou une constante système à l’œil lorsqu’une API, une préférence ou (23 October 2026, 22:57:03 +0200)
+> un état runtime peut la fournir. Il cherche d’abord le propriétaire réel de la (23 October 2026, 22:57:03 +0200)
+> donnée, lit la valeur avec une commande ou une API locale, compare le résultat (23 October 2026, 22:57:03 +0200)
+> par une seconde voie indépendante, puis centralise la valeur dans le paramètre (23 October 2026, 22:57:03 +0200)
+> HDA du projet. (23 October 2026, 22:57:03 +0200)
+>
+> L’incident qui fixe cette règle est Sleep Shutdown. Matthieu a dû insister pour (23 October 2026, 22:57:03 +0200)
+> que la hauteur du Dock soit vraiment cherchée. Les premières valeurs de widget (23 October 2026, 22:57:03 +0200)
+> étaient `96`, `80`, `72` puis `67` points. `visibleFrame.minY = 67` décrivait la (23 October 2026, 22:57:03 +0200)
+> zone réservée au Dock, mais pas la barre visible. La source Accessibility (23 October 2026, 22:57:03 +0200)
+> `AXList` a ensuite donné `61 pt`. La préférence native (23 October 2026, 22:57:03 +0200)
+> `com.apple.dock tilesize = 47`, augmentée du padding vertical mesuré de `14`, (23 October 2026, 22:57:03 +0200)
+> a fourni le repli `61 pt` quand l’application n’avait pas l’autorisation AX. (23 October 2026, 22:57:03 +0200)
+>
+> Le mot-clé `AXList` devient donc un exemple de méthode, pas une valeur à (23 October 2026, 22:57:03 +0200)
+> recopier. Pour toute situation équivalente : (23 October 2026, 22:57:03 +0200)
+>
+> 1. nommer la donnée, son unité et son repère ; (23 October 2026, 22:57:03 +0200)
+> 2. chercher l’API ou le fichier qui la possède réellement ; (23 October 2026, 22:57:03 +0200)
+> 3. lire la donnée avant d’écrire le layout ; (23 October 2026, 22:57:03 +0200)
+> 4. comparer la mesure à une observation indépendante ; (23 October 2026, 22:57:03 +0200)
+> 5. distinguer la source primaire, le repli et l’estimation ; (23 October 2026, 22:57:03 +0200)
+> 6. logguer la source utilisée ; (23 October 2026, 22:57:03 +0200)
+> 7. centraliser la valeur dans un seul paramètre ; (23 October 2026, 22:57:03 +0200)
+> 8. conserver la commande et la preuve dans le workflow concerné. (23 October 2026, 22:57:03 +0200)
+>
+> Commandes de contrôle pour l’exemple Dock : (23 October 2026, 22:57:03 +0200)
+>
+> ```zsh (23 October 2026, 22:57:03 +0200)
+> defaults read com.apple.dock tilesize (23 October 2026, 22:57:03 +0200)
+> osascript -e 'tell application "System Events" to tell process "Dock" to get {role, position, size} of every UI element' (23 October 2026, 22:57:03 +0200)
+> ``` (23 October 2026, 22:57:03 +0200)
+>
+> Une permission refusée ne signifie pas que la donnée n’existe pas. Une (23 October 2026, 22:57:03 +0200)
+> préférence absente ne signifie pas que la valeur vaut zéro. Une capture ne (23 October 2026, 22:57:03 +0200)
+> remplace pas l’API qui produit l’état. Si aucune source de vérité n’est (23 October 2026, 22:57:03 +0200)
+> trouvée, le résultat reste explicitement non vérifié : il ne se transforme pas (23 October 2026, 22:57:03 +0200)
+> en nombre plausible présenté comme une mesure. (23 October 2026, 22:57:03 +0200)
+>
+> La règle vaut pour le code natif comme pour HTML et React. Un navigateur qui ne (23 October 2026, 22:57:03 +0200)
+> peut pas lire une préférence macOS reçoit une mesure native injectée ou un (23 October 2026, 22:57:03 +0200)
+> token de démonstration clairement nommé. Il ne reçoit pas une fausse fonction (23 October 2026, 22:57:03 +0200)
+> `getDockHeight()`. (23 October 2026, 22:57:03 +0200)
+>
+> ## 30 September 2026 : la date partout, en anglais, mois en toutes lettres (23 October 2026, 22:57:03 +0200)
+>
+> - Toute règle ou tout ajout entre par une section au titre daté, et chaque ligne porte sa date au format `30 September 2026` (30 September 2026). (23 October 2026, 22:57:03 +0200)
+> - Texte intégral : `rules/SkillsAndMemory1.md`, section « La date partout » ; rappel court dans `CLAUDE.md` (30 September 2026). (23 October 2026, 22:57:03 +0200)
+> - Contrôle : `git diff -U0 -- <chemins> | grep '^+' | grep -v '^+++' | grep -vE '[0-9]{1,2} (January|February|March|April|May|June|July|August|September|October|November|December) 20[0-9]{2}'` doit être vide (30 September 2026). (23 October 2026, 22:57:03 +0200)
+> - Correction du format (30 September 2026, 11:51) : la première version écrivait `AAAA-MM-JJ` ; remplacée par l'anglais avec le mois en toutes lettres. (23 October 2026, 22:57:03 +0200)
+>
+> ## 30 September 2026 : deux règles ajoutées à la doctrine (23 October 2026, 22:57:03 +0200)
+>
+> - 30 September 2026 : `rules/ParametricHda1.md`, section du 30 September 2026 : l'interface de paramètres d'un graphe est courte, 8 par catégorie au plus, portée par le nœud maître et lue par `chf()`/`ch()`. (23 October 2026, 22:57:03 +0200)
+> - 30 September 2026 : `rules/SkillsAndMemory1.md`, section du 30 September 2026 : un feedback s'écrit petit à petit dans `FEEDBACK.md` et n'entre dans le skill que lorsque Matthieu le valide (sauf les règles demandées expressément : mesures rangées, une image par version, 8 paramètres par catégorie). (23 October 2026, 22:57:03 +0200)
+>
+> ## 02 October 2026 : Terme consacré : index mapping (ou mapping table) (23 October 2026, 22:57:03 +0200)
+>
+> - 02 October 2026 (mots de Matthieu, dictée et corrigée en grammaire seule) : index mapping (ou mapping table) est tout à fait le terme consacré : il désigne précisément l'action ou la table servant à mapper un index ou identifiant unique (01) vers un jeu de données associées (var1, var2), faisant office de table de correspondance directe pour retrouver rapidement plusieurs attributs à partir d'un simple entier. (02 October 2026) (23 October 2026, 22:57:03 +0200)
+> - 02 October 2026 : doctrine inscrite dans `rules/ParametricHda1.md` avec déclencheurs associés (`index mapping`, `mapping table`, `table de correspondance`, `lookup table`) dans `triggers.json`. (02 October 2026) (23 October 2026, 22:57:03 +0200)
+>
+> ## 5 October 2026 : Conversation liee au projet des le demarrage (23 October 2026, 22:57:03 +0200)
+>
+> - Au debut de chaque conversation agentique, executer BeginConversation avec le vrai session-id, agent et project-id existant concerne ; lire ensuite context et le feedback canonique. SessionBindings.json est la liaison unique session/projet, jamais une inference par titre ni une nouvelle identite par prompt. Une discussion sans projet conserve sa collection Conversations ; toute ambiguite ou tentative de reattribution reste visible et refusee. (5 October 2026) (23 October 2026, 22:57:03 +0200)
+> - Chaque fiche projet expose ses discussions liees, titre, fournisseur et pastille Claude orange, Codex gris ou Gemini bleu, avec ouverture du lecteur natif et retour au meme projet. Le mapping et sa fiche de contexte recensent les identites de session et references du lecteur, sans recopier le transcript dans le global. Les originaux complets restent archives par le miroir ; le lecteur pagine les messages disponibles et signale les corps absents ou effaces. Une liaison ne prouve pas une archive complete ni un hook universel d hote. (5 October 2026) (23 October 2026, 22:57:03 +0200)
+>
+> ## Contenu public et outils internes (6 October 2026) (23 October 2026, 22:57:03 +0200)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (23 October 2026, 22:57:03 +0200)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (23 October 2026, 22:57:03 +0200)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (23 October 2026, 22:57:03 +0200)
+>
+> ## 10 October 2026 : index de la méthodologie, enregistré à quatre endroits (23 October 2026, 22:57:03 +0200)
+>
+> - 10 October 2026 : `~/.claude/CLAUDE.md` porte une section courte qui pointe vers le skill `zenray-methodology`, lequel porte la procédure complète (10 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 10 October 2026 : le vocabulaire déclencheur (itérer, tourne en rond, piétine, bonne méthode, seize méthodes, masques noir et blanc, capture annotée, pivoter, trouver N) entre dans `rules/triggers.json` sous `SkillsAndMemory1.md`. La tête de ce fichier est régénérée depuis ce JSON, et `which-rule.mjs` le renvoie pour ces demandes (10 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 10 October 2026 : `~/.claude/skills/zenray-houdini/SKILL.md` reçoit un renvoi en tête de sa section PRIORITÉ 0 (10 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 10 October 2026 : `rules/SkillsIndex1.md` liste le skill automatiquement à chaque `sync-skill.sh`, par `update-skill-index.py` (10 October 2026). (23 October 2026, 22:57:03 +0200)
+>
+> ## 21 October 2026 : index de la méthode du sharingan, enregistré à quatre endroits (23 October 2026, 22:57:03 +0200)
+>
+> - 21 October 2026 : `~/.claude/CLAUDE.md` porte une phrase dans la section « PRIORITÉ 0 : MÉTHODE, SKILLS, MÉMOIRE ET JOURNAL » (21 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 21 October 2026 : la doctrine, trois paragraphes qui reprennent les mots de Matthieu, vit dans `rules/SkillsAndMemory1.md`, section du 21 October 2026 (21 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 21 October 2026 : le vocabulaire déclencheur (sharingan, reproduire un résultat, à l'identique, 99,9, même résultat, comme la référence) est dans `rules/triggers.json` sous `SkillsAndMemory1.md`, et `which-rule.mjs` le renvoie pour ces demandes (21 October 2026). (23 October 2026, 22:57:03 +0200)
+> - 21 October 2026 : le skill `zenray-sharingan` porte la boucle et trois exemples ; `rules/SkillsIndex1.md` le liste à chaque `sync-skill.sh` (21 October 2026). (23 October 2026, 22:57:03 +0200)
+>
+> ## 21 October 2026 : typographie des galeries (23 October 2026, 22:57:03 +0200)
+>
+> - 21 October 2026 : la correction courante est dans `rules/Typography1.md`, section « GT Sectra pour les titres des galeries, Anthropic Serif Regular pour le corps » : titres Gallery uniquement en GT Sectra Display LCG Regular Italic 400, corps et nombres en Anthropic Serif Regular 400, remplaçant la prescription Anthropic Medium du 18 October 2026. Le routeur connaît GT Sectra et Anthropic Serif Regular. (21 October 2026) (23 October 2026, 22:57:03 +0200)
+> - 23 October 2026 : titres en GT Sectra LCG ITALIQUE (coupe normale), chiffres et corps droits en Anthropic Serif ; règle courante dans `rules/Typography1.md`, section du 23 October 2026, 18:20, qui remplace « jamais d'italique ». (23 October 2026) (23 October 2026, 22:57:03 +0200)
+>
+>
+> ARGUMENTS: inventaire de tout ce qui est lié à Claude Code et au développement de Matthieu, pour ZenRay Knowledge (23 October 2026, 22:57:03 +0200)
+
+## 23 October 2026, 22:57:07 +0200 : Iteration
+
+<!-- feedback-event:f1a5a0daf1c8d53bb48f64ef4e404345bd8b31093335439edcf3cb76cfb1a34e (23 October 2026, 22:57:07 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (23 October 2026, 22:57:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:57:07 +0200)
+
+> Je dresse l'inventaire réel du disque : tout le texte que tu as produit ou fait produire, hors dépendances, caches et binaires. (23 October 2026, 22:57:07 +0200)
+
+## 23 October 2026, 22:59:15 +0200 : Prompt
+
+<!-- feedback-event:d285486aadf371d73e5f5ffdadd6c270ef8b897ceeda99b4556c9c9d727c003e (23 October 2026, 22:59:15 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 22:59:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:59:15 +0200)
+
+> The user sent a new message while you were working: (23 October 2026, 22:59:15 +0200)
+> N'hésite pas à faire une boucle ou à relancer un cron pour être sûr de continuer ce processus qui va être extrêmement long, qui va prendre à mon avis probablement plusieurs semaines. Donc tant que tu n'arrives pas à 99.9 % de tout l'inventaire et du dressage de 100 % des questions, bah tu n'arrêtes jamais en fait. C'est pour ça que peut-être que certaines boucles devront être faites par API et notamment via Claude Haiku ou alors Claude Sonnet. Tu peux déjà dépenser les 100 dollars en Claude Sonnet. Je pense qu'il vaut mieux pas utiliser Claude Haiku parce que ça fait vraiment trop de la merde, mais tu peux utiliser Claude Sonnet 3.5 en low ou en medium pour faire continuer la boucle aussi en parallèle sur des questions que tu te poserais. /prompt-stacking  (23 October 2026, 22:59:15 +0200)
+>
+> *  (23 October 2026, 22:59:15 +0200)
+>
+> <pasted_content id="085d"> (23 October 2026, 22:59:15 +0200)
+> Oui ajoute tout n'omet rien ...  (23 October 2026, 22:59:15 +0200)
+> les projets tmp / le dossier memory  (23 October 2026, 22:59:15 +0200)
+> /claude-md-global bref tout ce qui est lié à claude code ... Et à mon développement global. /think-of-everything Tu peux scanner intégralement mon disque pour être sûr de rien oublier. Mais globalement, Claude.md va déjà t'aider à faire un inventaire de tout. /progress Mais le but à terme, c'est aussi de voir dès qu'il y a un nouveau fichier qui apparaît, de le traquer et de générer directement toutes les questions auxquelles soit la conversation, soit les fichiers répondent. Le but en fait, c'est que ZenReKnowledge il puisse répondre à n'importe quelle question d'un truc qui aurait été fait sur mon ordinateur. Donc en fait, tu peux aussi lire directement le fichier progress, mais ce sera pas suffisant. Donc en fait, il faut vraiment que tu fasses une méthodologie qui scanne absolument tout et qui répond à toutes les questions qui ont déjà été posées. Et c'est là où toi déjà, tu dois faire tout un travail de recherche dans le passé pour mettre à jour le futur qui puisse anticiper les futures questions qui vont s'ajouter de manière progressive. Et chaque jour en fait, on ajoute énormément de questions. Donc il faut que le workflow /l'algo / le skill soit extrêmement solide. /dont-stop (23 October 2026, 22:59:15 +0200)
+> </pasted_content id="085d"> (23 October 2026, 22:59:15 +0200)
+>
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (23 October 2026, 22:59:15 +0200)
+
+## 23 October 2026, 22:59:14 +0200 : Prompt
+
+<!-- feedback-event:af64293b54c1075b7b4a1bd9438658cb215f4a3336c075bfdd2cc26e890c3d4c (23 October 2026, 22:59:14 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 22:59:14 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 22:59:14 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/prompt-stacking (23 October 2026, 22:59:14 +0200)
+>
+> # Continuité des tâches (23 October 2026, 22:59:14 +0200)
+>
+> **Un nouveau prompt change le focus, pas l'historique des obligations.** (23 October 2026, 22:59:14 +0200)
+>
+> **Une tâche ne disparaît que par `DONE` ou `CANCEL`.** (23 October 2026, 22:59:14 +0200)
+>
+> ## État unique par session (23 October 2026, 22:59:14 +0200)
+>
+> Résoudre le dossier depuis l'identifiant opaque fourni par l'hôte, jamais depuis le texte littéral (23 October 2026, 22:59:14 +0200)
+> `<CurrentSessionName>` ni depuis une date, un nom de projet ou une valeur aléatoire : (23 October 2026, 22:59:14 +0200)
+>
+> - Claude Code : `/Users/zenray/.claude/$CLAUDE_SESSION_ID/prompt-stacking.md` (23 October 2026, 22:59:14 +0200)
+> - Codex : `/Users/zenray/.codex/$CODEX_SESSION_ID/prompt-stacking.md` (23 October 2026, 22:59:14 +0200)
+> - Antigravity : `/Users/zenray/.gemini/antigravity/$ANTIGRAVITY_CONVERSATION_ID/prompt-stacking.md` (23 October 2026, 22:59:14 +0200)
+>
+> Le dossier est global à l'hôte, hors de l'espace de travail et ne se versionne pas. Si l'identifiant standard manque, (23 October 2026, 22:59:14 +0200)
+> utiliser seulement l'identifiant de conversation exposé par l'hôte. Ne jamais créer de repli partagé. (23 October 2026, 22:59:14 +0200)
+>
+> Créer automatiquement le dossier et le fichier s'ils n'existent pas. Ce fichier est le seul état de (23 October 2026, 22:59:14 +0200)
+> tâches : ne pas créer de dashboard, JSON, base de données, rapport, journal d'événements ou second (23 October 2026, 22:59:14 +0200)
+> fichier de suivi. (23 October 2026, 22:59:14 +0200)
+>
+> ```md (23 October 2026, 22:59:14 +0200)
+> # OPEN (23 October 2026, 22:59:14 +0200)
+>
+> - [>] T1 Tâche actuelle (23 October 2026, 22:59:14 +0200)
+> - [ ] T0 Tâche interrompue (23 October 2026, 22:59:14 +0200)
+>
+> # DONE (23 October 2026, 22:59:14 +0200)
+>
+> - [x] T-1 Tâche vérifiée (23 October 2026, 22:59:14 +0200)
+>
+> # CANCELED (23 October 2026, 22:59:14 +0200)
+>
+> - [!] T-2 Tâche explicitement annulée (23 October 2026, 22:59:14 +0200)
+> ``` (23 October 2026, 22:59:14 +0200)
+>
+> `[>]` signifie active, `[ ]` en attente, `[x]` terminée et `[!]` annulée. Les descriptions tiennent (23 October 2026, 22:59:14 +0200)
+> sur une ligne. Les tâches les plus récentes viennent en premier dans chaque section. (23 October 2026, 22:59:14 +0200)
+>
+> ## À chaque prompt (23 October 2026, 22:59:14 +0200)
+>
+> Pour chaque demande conséquente et toute tâche de code, avant le travail : (23 October 2026, 22:59:14 +0200)
+>
+> 1. Lire seulement `OPEN`. (23 October 2026, 22:59:14 +0200)
+> 2. Classer l'intention : `CONTINUE`, `NEW` ou `CANCEL`. (23 October 2026, 22:59:14 +0200)
+> 3. Mettre l'état à jour avant l'exécution. (23 October 2026, 22:59:14 +0200)
+>
+> `CONTINUE` conserve l'unique tâche active et affine sa description si nécessaire. Une précision ou une (23 October 2026, 22:59:14 +0200)
+> suite logique reste un `CONTINUE`. (23 October 2026, 22:59:14 +0200)
+>
+> `NEW` commence par déplacer l'ancienne tâche active, si elle n'est pas finie, vers `OPEN` en attente, (23 October 2026, 22:59:14 +0200)
+> puis place la nouvelle tâche active en tête. Ne créer aucune tâche à partir d'un détail accessoire. (23 October 2026, 22:59:14 +0200)
+>
+> `CANCEL` exige une annulation, un remplacement ou une obsolescence explicite de la part de l'utilisateur. (23 October 2026, 22:59:14 +0200)
+> Déplacer alors la tâche dans `CANCELED`, avec le motif sur la même ligne. Ne jamais l'appeler `DONE`. (23 October 2026, 22:59:14 +0200)
+>
+> Lorsque le résultat est réellement complet et vérifié, déplacer la tâche dans `DONE`. Une tentative, (23 October 2026, 22:59:14 +0200)
+> une tâche partielle, un blocage ou un résultat non vérifié reste dans `OPEN`. (23 October 2026, 22:59:14 +0200)
+>
+> L'état est lossless, plutôt que littéralement append-only : aucune tâche n'est supprimée. Comme chaque (23 October 2026, 22:59:14 +0200)
+> section doit garder les tâches les plus récentes en tête et refléter leur statut courant, une ligne peut (23 October 2026, 22:59:14 +0200)
+> changer de section ou de marqueur. N'ajouter aucun historique parallèle pour simuler un append-only. (23 October 2026, 22:59:14 +0200)
+>
+> Un seul élément peut être `[>]`. Toute tâche non terminée reste dans `OPEN`. Ne lire `DONE` ou `CANCELED` (23 October 2026, 22:59:14 +0200)
+> que lorsqu'un contexte historique précis est nécessaire. Le suivi reste silencieux et ne doit ni (23 October 2026, 22:59:14 +0200)
+> interrompre ni alourdir la réponse réelle. (23 October 2026, 22:59:14 +0200)
+
+## 23 October 2026, 23:03:38 +0200 : Iteration
+
+<!-- feedback-event:55d6e6c2e6f3df28773d7ce9f99a0ae220f1bcc87a97d85aa231006429efea77 (23 October 2026, 23:03:38 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (23 October 2026, 23:03:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 23:03:38 +0200)
+
+> La passe incrémentale ne prend que 20 secondes : elle n'a relu que 2 fichiers modifiés et 2 conversations. J'adapte le moteur et la publication au nouveau schéma, puis je revérifie les batteries. (23 October 2026, 23:03:38 +0200)
+
+## 23 October 2026, 23:10:41 +0200 : Prompt
+
+<!-- feedback-event:8c353c0c09b14404afe944b453c261010f6a240eadc9dace38f0007bbe2f43e9 (23 October 2026, 23:10:41 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (23 October 2026, 23:10:41 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (23 October 2026, 23:10:41 +0200)
+
+> This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation. (23 October 2026, 23:10:41 +0200)
+>
+> <tools-used-before-summary>Agent, Bash, Edit, Read, SendUserFile, Skill, Write, mcp__Claude_Browser__browser_batch, mcp__Claude_Browser__javascript_tool, mcp__Claude_Browser__preview_list, mcp__Claude_Browser__preview_start, mcp__Claude_Browser__preview_stop, mcp__Claude_Browser__resize_window, mcp__ccd_turn__update_plan, mcp__ccd_turn__wrap_up</tools-used-before-summary> (23 October 2026, 23:10:41 +0200)
+> Summary: (23 October 2026, 23:10:41 +0200)
+> 1. Primary Request and Intent: (23 October 2026, 23:10:41 +0200)
+>    - Build **ZenRay Knowledge** in ZenRayProgress: a sidebar tab "Knowledge" placed **between Plan and Sport**, recording every question Matthieu ever asked (date/time), querying the base before answering future questions, answers short (1 to 3 paragraphs), never invented (always a proof from an MD/source; a source can contain errors, note it once, not on every question), skill + search tool + creation tool + push-to-site tool, auto-fed every 6 h like ZenRay Freelance, covering all Memory + all conversations (Claude Code, Codex, Gemini), Matthieu1.md questions included. (23 October 2026, 23:10:41 +0200)
+>    - Design choices made by the user: B2 "Onglet" layout, Liquid Glass theme (reference image /Users/zenray/Downloads/rankingFolder/liquid-glass-claude.png consigned in zenray-edit), answer panel always top-aligned with its question. (23 October 2026, 23:10:41 +0200)
+>    - Typography (consigned): titles GT Sectra LCG (normal cut, never Display; the user's latest instruction to me was upright regular, no italic; note: claude-md-global shows a later 23 October 2026 18:20 rule from another session saying titles in GT Sectra LCG ITALIQUE, check rules/Typography1.md before styling), numbers and body Anthropic Serif Regular 400, UI Inter. (23 October 2026, 23:10:41 +0200)
+>    - After critique: no second source of truth (V1 Questions1 abandoned/archived), methodology chosen via test battery (zenray-methodology), theme repaired (no blue background, no overflow). (23 October 2026, 23:10:41 +0200)
+>    - LATEST request (in progress): "Oui ajoute tout n'omet rien... les projets tmp / le dossier memory / tout ce qui est lié à claude code... Et à mon développement global... scanner intégralement mon disque... le but à terme, c'est aussi de voir dès qu'il y a un nouveau fichier qui apparaît, de le traquer et de générer directement toutes les questions auxquelles soit la conversation, soit les fichiers répondent... ZenReKnowledge il puisse répondre à n'importe quelle question d'un truc qui aurait été fait sur mon ordinateur... lire directement le fichier progress, mais ce sera pas suffisant... méthodologie qui scanne absolument tout et qui répond à toutes les questions qui ont déjà été posées... anticiper les futures questions... chaque jour on ajoute énormément de questions... workflow/algo/skill extrêmement solide. /dont-stop". Mid-turn addition: "N'hésite pas à faire une boucle ou à relancer un cron... processus extrêmement long... plusieurs semaines... tant que tu n'arrives pas à 99.9 % de tout l'inventaire et du dressage de 100 % des questions, tu n'arrêtes jamais... boucles par API... Tu peux déjà dépenser les 100 dollars en Claude Sonnet. Il vaut mieux pas utiliser Claude Haiku parce que ça fait vraiment trop de la merde, mais tu peux utiliser Claude Sonnet 3.5 [interpreted as Sonnet 5.5] en low ou en medium pour faire continuer la boucle aussi en parallèle sur des questions que tu te poserais. /prompt-stacking". (23 October 2026, 23:10:41 +0200)
+>
+> 2. Key Technical Concepts: (23 October 2026, 23:10:41 +0200)
+>    - SQLite FTS5 (node:sqlite DatabaseSync), external-content FTS with triggers, BM25 rank, French stemming (roots column), RRF fusion, Haiku keyword expansion + rerank (method M18), proof gate (proof copied verbatim, flat() normalization), index mapping (src/lib/knowledgeIndex.js shared tokenizer), doc2query (generated questions as search keys only, never answers), Anthropic SDK @anthropic-ai/sdk (messages.stream, output_config.effort, Batch API 50% off), Sonnet 5.5 $2/$10 per MTok, Haiku 5.5 $0.10/$0.50, CloudStore git publication to private repo zenray-data (knowledge/ folder), LaunchAgent service pattern (Freelance), loopback bridge with Private Network Access, Claude Code UserPromptSubmit hook, ZenRay Assets project binding (BeginProject, feedback.py, checkpoint), Liquid Glass clip-path single shape + SVG rim, g9 site glass tokens, box-sizing border-box. (23 October 2026, 23:10:41 +0200)
+>
+> 3. Files and Code Sections (repo /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress unless noted): (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/KnowledgeConfig.json: memory roots/exclude/dropSections; conversations (claude ~/.claude/projects, codex ~/.codex/sessions, gemini ~/.gemini/antigravity/conversations, geminiReader, maxQuestionChars 700, maxAnswerChars 5000, skipPrompt); extract {backend "api", apiModel "claude-haiku-5-5", maxOutputTokens 32000, model "haiku", effort "high", timeoutMs, maxParagraphs 3, maxAnswerChars 1400, minProofChars 12}; answer {effort "low"}; domains; index {shardBytes 700000, minTokenLength 2, maxIndexBytes 8000000}; cloud {repo matthieuhuguet/zenray-data, branch main, folder knowledge, indexPath knowledge/index.json, shardPrefix knowledge/journal-, statusPath knowledge/engine.json, inboxPath knowledge/inbox.json, pushAttempts 6, author ZenRay Knowledge}; service {label com.zenray.knowledge, port 3103, schedule Europe/Paris hours [0,6,12,18], tickSeconds 60, inboxPollSeconds 600, bodyLimitBytes, allowedOrigins incl. pages.dev, localhost 3000/3300/3310/5173}; NEW files {roots in authority order: ~/.claude/Memory1 (Memory1), ~/.claude/CLAUDE.md, ~/.claude/rules, ~/.claude/skills, ~/.claude/PROGRESS.md (maxBytes 30000000), /Users/zenray/Create/Build/Productions, /Users/zenray/Create/Build/AssetsWorkspaces, /Users/zenray/Create/Build/Memory (Memory-legacy, absent), ~/.claude/tmp}, extensions [.md,.mdx,.txt,.html,.htm], maxBytes 1500000, exclude [node_modules, .git, dist, build, .venv, site-packages, __pycache__, DerivedData, Pods, .next, coverage, Intermediate, Saved, DerivedDataCache, Binaries, ^/Skills/, Japanese[2-9], Projects/*/FEEDBACK.md, FileMap.md, ConversationIndex.md, Credentials, Sensible, AGENTS.md, GEMINI.md, Knowledge/archive, .env, LICENSE, THIRD PARTY, CHANGELOG, .min., .DS_Store]}; fileQuestions {minChars 12, maxChars 400, answerChars 1200}. Excluded vendor docs UE_5.8, Houdini22 by not being roots. (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Files.mjs (NEW): textFiles(config,{onSkip}) walks roots, ext filter, size cap (root.maxBytes ?? files.maxBytes), skips symlinks/binary, html tag stripping, sha256 content dedup (first path wins), returns {file, ref:`${label}/${rel}`, label, size, mtime, hash, text}. Measured: 13,652 unique files, 58.9M chars, 343 skipped by size, 21 s; by label Memory1 897, skills 687, Productions 1518, tmp 10,504 (28.9M chars), PROGRESS 1. (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Index.mjs (V3, incremental): runtimeDirectory() ~/Library/Application Support/ZenRayKnowledge, dbPath knowledge.db (old V2 db moved to knowledge-v2.db); stem/stemText; dateIn(text) (YYYY-MM-DD or "23 October 2026"); sections(file, config, max=2500) with at = dateIn or mtime; progressEntries(file) splits PROGRESS.md on /^(20\d{2}-\d{2}-\d{2}) (\d{2}:\d{2})/, title from "- Projet :"; fileQuestions(file, config) lines ending "?" outside code, answer = next 30 lines (answerChars), date = last date seen or mtime; schema: files(ref pk, hash, mtime, kind), sections(rowid, ref, title, line, at, text, roots, keys default '', hash) + sections_fts fts5(title,text,roots,keys, content='sections') with ai/ad/au triggers, asked(rowid, id unique, src 'file'|'conversation', kind, ref, path, at, q, answer), asked_fts standalone fts5(q, roots) maintained manually by insertAsked/deleteAsked, transcripts(path, size, mtime), keycache(hash pk, questions, model, at); updateIndex(config,{root,log}) re-reads changed files by hash (file questions only for .md/.mdx/.txt), removes deleted refs, re-parses transcripts whose size/mtime changed (readJsonlLines from scripts/lib/jsonl-lines.mjs, line cap 30 MB, Gemini via reader pages), returns report; applyKeys(db, hash, questions, model) writes keycache and updates sections keys/roots; openIndex({write}); buildIndex alias. Results: first build 64,496 sections, 4,772 file questions, 1,123 conversation questions, 140 s; incremental 20 s. (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Engine.mjs: searchAsked(question,{k,db,extra}) (rrf of asked_fts q and roots, plus keyword-expanded lists), selects `id, src, kind, ref, at, q, answer`; searchSectionsLexical; keywordsFor(config,q) Haiku low 12 keywords; searchSections(config,q,{k,db,keywords}) → rerankSections with AUTHORITY = ['Memory1/','CLAUDE.md','rules/','skills/','PROGRESS.md','Productions/','AssetsWorkspaces/','tmp/'] bonus 0.0004 per level on fused rank (40 candidates, top 20 to Haiku rerank); section select now `select ref || '#' || line as id, ref, title, line, at, text from sections`; answerFromMemory (prompts/Ask.md, checkEntry proof gate, returns a, d, proof, ref, line, title); ask(config, question) both lanes. (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Model.mjs: callModel(config, system, user) backend api (Anthropic SDK stream, model settings.apiModel, effort, ephemeral cache on system, refusal/max_tokens checks, ModelError{down}) or cli (claude -p); apiKey() reads ANTHROPIC_API_KEY from .env (mode must not be group/other readable). (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Publish.mjs: excerpt(text,max) paragraph cut; loadAsks() from Asks.jsonl; buildFiles: asked rows (type 'file' or 'asked', excerpt 800/1500) + asks (type 'memory') sorted by at, shards journal-NN.json, index.json v2 with map; publish() removes knowledge/ files not written (null), applies inboxUpdates to freshest inbox; readInbox(). (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/lib/Sources.mjs: memoryFiles, redact (dropSections + SECRET regex incl. `sk-ant-[a-z0-9]+-`), pairsFromEntries, conversationPairs (dedupe by id, line cap 30 MB via readJsonlLines after another session replaced createInterface), looksLikeQuestion. lib/Validate.mjs: checkEntry (undash long dashes, " ?" spacing, proof-not-in-source, secret, answer-shape) and flat(). (23 October 2026, 23:10:41 +0200)
+>    - scripts/Knowledge/knowledge.mjs (V2 CLI): ask|asked|memory|build|push|run|status|hook; askAndLog appends Asks.jsonl; processInbox; runPass (buildIndex → processInbox → publish); hook prints additionalContext from searchAsked + searchSectionsLexical (no model). Main.mjs (V2 service): pass at schedule slots (Service.json lastSlot), inbox every 10 min, bridge actions status/ask/inbox/run, notify via osascript. Daemon.mjs install|restart|status|uninstall. SetApiKey.mjs (clipboard key, accepts sk-ant-(api\d{2}|usr)-). Knowledge.test.js (19 tests green before V3). bench/: Corpus.mjs, Gold.mjs, GoldIndependent.mjs, Embed.swift, Bench.mjs, Answer.mjs, Verify.mjs (--shuffle red check), MatthieuQuestions.mjs (new, 115 Matthieu1 questions, top5 0.965 on V2). (23 October 2026, 23:10:41 +0200)
+>    - scripts/Freelance/CloudStore.mjs: `if (files[file] === null) { await rm(target, { force: true }); continue }` deletion support. (23 October 2026, 23:10:41 +0200)
+>    - server/page.js: safe() allows `knowledge/` prefix. (23 October 2026, 23:10:41 +0200)
+>    - src/knowledge/KnowledgeView.jsx, knowledge.css, knowledgeData.js (loadKnowledge, readInbox, askNow via bridge askTimeoutMs 45000, askQuestion to inbox, runEngineNow), glassTab.js; src/config/knowledge.js; src/lib/knowledgeIndex.js (+test); Sidebar.jsx entry; App.jsx lazy route excluded from .zr-stage; i18n dict. View: client-built index map, duplicates merged by questionKey with ×N, rows clamped 3 lines, list width min(440px,42%), types asked/memory (file type now added in publish; view whenLine handles memory vs asked: may need a 'file' label). (23 October 2026, 23:10:41 +0200)
+>    - Memory: ~/.claude/Memory1/Knowledge/README.md (V2 description), archive/Questions1-V1-23-October-2026.{md,jsonl}; Projects/zenray-knowledge-23-october-2026/{Project1.md, Rules.md (3 rules), FEEDBACK.md (keys redacted), Project.json}; ~/.claude/rules/triggers.json memory entry Knowledge/README.md; ~/.claude/skills/zenray-knowledge/SKILL.md (V2 fait foi section on top, V1 historique); ~/.claude/skills/zenray-edit/templates/liquid-glass/ + references/liquid-glass/; method sheet ~/.claude/tmp/tmp-zenray-knowledge-23-october-2026/MethodSheet.md; prompt-stacking state /Users/zenray/.claude/11264bd4-8a19-4e76-b9be-dc012304e419/prompt-stacking.md (T3 active). (23 October 2026, 23:10:41 +0200)
+>
+> 4. Errors and fixes: (23 October 2026, 23:10:41 +0200)
+>    - claude -p "account on hold" → user ran claude auth logout/login, fixed; then switched to API backend. (23 October 2026, 23:10:41 +0200)
+>    - Haiku effort max never finishes (64k thinking tokens, cut) → effort high for extraction, low for answers. (23 October 2026, 23:10:41 +0200)
+>    - SQLite bind undefined `at` → `p.at ?? null`. (23 October 2026, 23:10:41 +0200)
+>    - Transcript lines >200 KB with screenshots skipped (lost "Cloudflare rules" question) → cap raised to 30 MB. (23 October 2026, 23:10:41 +0200)
+>    - Theme: blue sky photo background and 68 px overflow (content-box) → removed own photo, site g9 tokens, `.zrk, .zrk * { box-sizing: border-box; }`. (23 October 2026, 23:10:41 +0200)
+>    - Duplicate pairs requeued, Out race, empty output files, test env jsdom (`// @vitest-environment node`), python edit syntax errors, CloudStore deletion, unmanaged em dash characters → all fixed. (23 October 2026, 23:10:41 +0200)
+>    - User feedback: "C'est un peu de la merde... fond bleu... textes qui dépassent... méthodologie n'est pas la bonne... tu recrées une autre source de vérité avec question 1.md" → V2 redesign; "Haiku... trop de la merde" → use Sonnet. (23 October 2026, 23:10:41 +0200)
+>    - V3 regression: lane2 dropped to first 0.4, top5 0.5, file5 0.675 (from 0.45/0.65/0.90) due to 9x corpus; file questions polluted by HTML mockups (restricted to md/txt, needs reindex of HTML files' questions: deleteAsked happens only on changed files, so existing HTML file questions remain until those files change; need cleanup). (23 October 2026, 23:10:41 +0200)
+>
+> 5. Problem Solving: (23 October 2026, 23:10:41 +0200)
+>    - Method battery chose two lanes; V3 broadened corpus; now need to recover lane-2 quality on large corpus (doc2query keys via Sonnet batch pilot, authority ranking, maybe restrict default search scope or per-root weighting) and remove HTML-sourced file questions already inserted. (23 October 2026, 23:10:41 +0200)
+>    - API keys: both stored/redacted; Memory git history checked clean. (23 October 2026, 23:10:41 +0200)
+>
+> 6. All user messages (verbatim essentials, security constraints preserved): (23 October 2026, 23:10:41 +0200)
+>    - Initial ZenRay Knowledge request (pasted) + "/matthieu-context mot clé zenray knowledge zenray progress zenray assets skills à lire pour get context à mettre en plan et sport sur sidebar de gauche. /zenray-edit propose moi 3 designs UI et je tranche". (23 October 2026, 23:10:41 +0200)
+>    - "Essaie désormais pour les titres d'utiliser GT Sectra... le corps resterait en Anthropic Serif regular /wait-validation". (23 October 2026, 23:10:41 +0200)
+>    - "Non, pardon, en fait... c'est GT Sectra LCG. Pas Display /wait-validation". (23 October 2026, 23:10:41 +0200)
+>    - "Parfait consigne puis applique sur les maquettes go." (23 October 2026, 23:10:41 +0200)
+>    - "En fait, ça marche pas du tout GT Sectra pour autre chose que des titres... regular pas italique... chiffres Anthropic... testons cette nouvelle versions on hold la consignation...". (23 October 2026, 23:10:41 +0200)
+>    - Screenshots + "J'aime bien le design de Threads + bibliothèque... reproposer trois designs... moins d'éléments... GT Sectra uniquement sur les titres... maintenant tu peux consigner testons Display Sectra aussi avec un switch normal vs display". (23 October 2026, 23:10:41 +0200)
+>    - "Je trouve que la B est pas mal... pas assez relié... repars de la B et refais trois designs. Et par contre, consigne que c'est toujours GTSectra Normal et jamais Display du coup." (23 October 2026, 23:10:41 +0200)
+>    - liquid-glass image + "consigne cette image dans ref du skill /zenray-edit et crée un thème liquid glass... je choisis... le B... il faut toujours centrer la réponse de droite par rapport à la question de gauche... alignement en haut... créer le thème liquid glass... image de derrière de Create... créer la V5... go prends ton temps le code doit être parfait et optimisé... /dont-stop". (23 October 2026, 23:10:41 +0200)
+>    - "Oui, parfait. Maintenant, tu peux le coder avec ce design... barre de recherche... index mapping... consignes toutes les questions... Matthieu1.md... séquentielle plutôt... outil de création de questions... skill associé... ZenRAGKnowledge... recherche/création/push... toutes les conversations Claude Code, Codex, Gemini... Questions1.md indexé dans memory... jamais inventer des réponses... toujours une preuve... cette question peut contenir des erreurs (pas à chaque question)... auto-alimenté toutes les 6 heures comme ZenRay Freelance... Haiku 5.5 Max intensity... comprends vraiment le dossier Memory Actuel. /dont-stop /tasks-sequence". (23 October 2026, 23:10:41 +0200)
+>    - "go de manière séquentielle. /dont-stop jusqu'à avoir tout fait à 100% + l'automation comme dans zenray freelance du nouveau knowledge". (23 October 2026, 23:10:41 +0200)
+>    - "fois ton compte Claude débloqué ? tu utilises bien ce compte en même temps ? mhzenray@gmail.com ?"; ran `claude auth logout`, `claude auth login`. (23 October 2026, 23:10:41 +0200)
+>    - "tu peux même utiliser une connexion API car mon organisation a actuellement 100 dollar à utiliser"; "envoie moi sur le site de l'API claude et j'en crée une ou fais le toi même en soi"; pasted first API key (do not repeat); "sinon tu met sonnet medium c'est beaucoup plus cher mais au moins je suis sur que ça marche en 5.5"; "ok go lance en séquentiel"; "ok status ?". (23 October 2026, 23:10:41 +0200)
+>    - Critique message: "C'est un peu de la merde... fond bleu... textes qui dépassent... répare le theme... tu recrées une autre source de vérité avec question 1.md... Zettelkasten Knowledge la plus finale... sachant que memory existe déjà /zenray-knowledge a rework /zenray-methodology TROUVER LA MEILLEUR METHODOLOGY APRES BATTERIE DE TESTS". (23 October 2026, 23:10:41 +0200)
+>    - "Oui : reconstruis ZenRay Knowledge sur la méthode à deux voies (journal des vraies questions + recherche M18 dans Memory, réponse prouvée), archive Questions1, et adapte la vue." (23 October 2026, 23:10:41 +0200)
+>    - "J'ai besoin d'une explication sur /zenray-knowledge ? Est-ce que tu as push dans un fichier assets ? et bind tout le projet /zenray-assets ... à jour ? terminé ? commit ? sauvegardé ? consigné ? statut actuel en trois paragraphes... 21h... si tout n'est pas consigné, tu consignes tout dans le skill et dans assets". (23 October 2026, 23:10:41 +0200)
+>    - Second API key pasted "voici" (do not repeat). (23 October 2026, 23:10:41 +0200)
+>    - "est-ce que Zenrei Knowledge à date il répond à toutes les questions... Mathieu Context /matthieu-context ?... run à l'infini Haiku... donne-moi son statut actuel." (23 October 2026, 23:10:41 +0200)
+>    - Latest two messages (quoted in section 1): "Oui ajoute tout n'omet rien..." and the mid-turn "N'hésite pas à faire une boucle ou à relancer un cron..." (Sonnet, $100, never stop until 99.9%/100%). (23 October 2026, 23:10:41 +0200)
+>    - Security-relevant: API keys must never be echoed, pasted into chat-derived files, or committed; keep in ~/Library/Application Support/ZenRayKnowledge/.env (600); redact any key captured into FEEDBACK.md; recommend revocation of the pasted keys; never enter credentials/tokens into web fields; never use Matthieu's personal browser; no secrets in published Knowledge data (SECRET filter, Credentials/Sensible excluded). (23 October 2026, 23:10:41 +0200)
+>
+> 7. Pending Tasks: (23 October 2026, 23:10:41 +0200)
+>    - T3 (active): Knowledge V3: everything on the Mac indexed (done: Files.mjs, Index V3), recover lane-2 quality on large corpus, doc2query question generation with Sonnet 5.5 (low/medium) via API/Batch with spend ledger and cap (~95 USD of the 100), pilot measured on battery first, then roll out across whole corpus in authority order (Memory1, CLAUDE.md, rules, skills, PROGRESS, Productions, AssetsWorkspaces, tmp), loop until 99.9% sections keyed, new-file tracking (frequent incremental updateIndex + key generation for new sections), report skipped-by-size files (343), clean HTML-sourced file questions already in DB, update view for 'file' type label, update Main.mjs/knowledge.mjs to V3 (updateIndex, keys generation loop, budget), reinstall service com.zenray.knowledge (currently UNINSTALLED), run tests (Knowledge.test.js needs update for V3 exports: sections now returns {ref,title,line,at,text} without id), commit, push, deploy, publish, update skill zenray-knowledge, Assets checkpoint/feedback, PROGRESS entry. (23 October 2026, 23:10:41 +0200)
+>    - T2: Matthieu revokes the first pasted key (and ideally the second, also pasted in chat; recreate via SetApiKey.mjs clipboard). (23 October 2026, 23:10:41 +0200)
+>    - Assets archive of zenray-knowledge-23-october-2026 was queued (78 files, 64 MB), not yet confirmed cloud. (23 October 2026, 23:10:41 +0200)
+>
+> 8. Current Work: (23 October 2026, 23:10:41 +0200)
+>    Just finished building Index V3 and adapting Engine (authority bonus, new section id select) and restricting file questions to md/txt. Ran `node scripts/Knowledge/bench/Verify.mjs` on V3: `{"shuffle":false,"lane1":{"plain":0.975,"withKeywords":0.975},"lane2":{"first":0.4,"top5":0.5,"file5":0.675,"seconds":4.7}}` — lane 2 regressed vs V2 (0.45/0.65/0.90) because the corpus grew from 7,085 to 64,496 sections. Uncommitted changes in ZenRayProgress: lib/Files.mjs, lib/Index.mjs, lib/Engine.mjs, lib/Publish.mjs, KnowledgeConfig.json, bench/MatthieuQuestions.mjs. Service uninstalled; knowledge-v2.db kept as backup. (23 October 2026, 23:10:41 +0200)
+>
+> 9. Optional Next Step: (23 October 2026, 23:10:41 +0200)
+>    Continue T3 per the user's latest instruction ("tant que tu n'arrives pas à 99.9 % de tout l'inventaire et du dressage de 100 % des questions, bah tu n'arrêtes jamais... Tu peux déjà dépenser les 100 dollars en Claude Sonnet... Claude Sonnet... en low ou en medium"): first recover lane-2 quality on the large corpus (e.g., stronger authority/root weighting or Memory-first two-stage search, re-verify G3), then run a measured doc2query pilot with claude-sonnet-5-5 (effort low, Message Batches API, spend ledger with cap) on Memory sections, re-run Verify.mjs to confirm the keys improve recall, and only then roll out key generation across the whole corpus inside the reinstalled service loop (incremental updateIndex + key generation for new/changed sections), with status showing coverage % and spend. (23 October 2026, 23:10:41 +0200)
+>
+> If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl (23 October 2026, 23:10:41 +0200)
+> Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened. (23 October 2026, 23:10:41 +0200)
+>
+> The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them. (23 October 2026, 23:10:41 +0200)
