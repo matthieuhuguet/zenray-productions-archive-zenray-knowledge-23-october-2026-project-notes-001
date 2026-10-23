@@ -4346,3 +4346,48 @@
 > | Site et consignation | Oui | Le site sert le nouveau code (`index-Bm3mImWF.js`) ; commits poussés ; skill, README, journal et Assets à jour | (24 October 2026, 01:34:50 +0200)
 >
 > Quand la couverture sera complète, je relancerai les deux bancs de test (`Verify.mjs` et `PoolBench.mjs`) pour voir si le reclassement gagne encore. Reste aussi un geste de ton côté, en suspens depuis hier : révoquer les deux clés API que tu as collées dans le chat et en recréer une par `SetApiKey.mjs`. (24 October 2026, 01:34:50 +0200)
+
+## 24 October 2026, 01:44:18 +0200 : Prompt
+
+<!-- feedback-event:782fe84d5d2b28887da3a8ed45871a391046d99708a6e283493ee3ba3c191d1e (24 October 2026, 01:44:18 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (24 October 2026, 01:44:18 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:44:18 +0200)
+
+> <task-notification> (24 October 2026, 01:44:18 +0200)
+> <task-id>b8suqio92</task-id> (24 October 2026, 01:44:18 +0200)
+> <summary>Monitor event: "Watch for the first automatic keys cycle"</summary> (24 October 2026, 01:44:18 +0200)
+> <event>2026-10-23T23:44:18.437Z keys: {"collected":{"collected":0,"sections":0,"failed":0,"closed":0,"reasons":{},"usd":0,"spentUsd":11.4017},"submitted":{"batch":"msgbatch_01HoqENf6QgkaBkjBCoGwcEs","sections":2000,"requests":168,"projectedUsd":2.3}}</event> (24 October 2026, 01:44:18 +0200)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (24 October 2026, 01:44:18 +0200)
+> </task-notification> (24 October 2026, 01:44:18 +0200)
+
+## 24 October 2026, 01:44:24 +0200 : Iteration
+
+<!-- feedback-event:8cb770dc324c2ebbc8b7f1383104c810fc6b0edaae199383f14c7973398517ab (24 October 2026, 01:44:24 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 01:44:24 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:44:24 +0200)
+
+> Le service a envoyé seul un nouveau lot de 2 000 passages, pour environ 2,30 $ projetés. Deux lots sont donc en cours, ce qui est le maximum prévu, et la file avance comme attendu. (24 October 2026, 01:44:24 +0200)
+
+## 24 October 2026, 01:48:05 +0200 : Prompt
+
+<!-- feedback-event:0510958b0a723a72bb11dc065e6b30ba280e2916be98e7ddf6044f54b9616206 (24 October 2026, 01:48:05 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (24 October 2026, 01:48:05 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:48:05 +0200)
+
+> <task-notification> (24 October 2026, 01:48:05 +0200)
+> <task-id>b8suqio92</task-id> (24 October 2026, 01:48:05 +0200)
+> <summary>Monitor event: "Watch for the first automatic keys cycle"</summary> (24 October 2026, 01:48:05 +0200)
+> <event>[Monitor expired after 25m with 2 events delivered. Re-arm it if you still need the watch.]</event> (24 October 2026, 01:48:05 +0200)
+> </task-notification> (24 October 2026, 01:48:05 +0200)
+
+## 24 October 2026, 01:48:09 +0200 : Iteration
+
+<!-- feedback-event:0060f54eb310789e469820ef45b06172df0c7796d2ba46f53a8385612324a73b (24 October 2026, 01:48:09 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 01:48:09 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 01:48:09 +0200)
+
+> La surveillance ponctuelle est terminée et je ne la relance pas : le service tourne seul, note chaque cycle dans `/Users/zenray/Library/Application Support/ZenRayKnowledge/Service.log`, et s'arrête de lui-même au plafond de 90 $. Pour voir où il en est, cette commande donne la couverture et la dépense : (24 October 2026, 01:48:09 +0200)
+>
+> ```bash (24 October 2026, 01:48:09 +0200)
+> node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/Keys.mjs status (24 October 2026, 01:48:09 +0200)
+> ``` (24 October 2026, 01:48:09 +0200)
