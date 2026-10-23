@@ -4255,3 +4255,31 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:23:58 +0200)
 
 > La consignation est faite (journal, Assets, README, skill). Il ne reste qu'une preuve à obtenir : voir le service soumettre seul son premier lot de clés, prévu vers 00h31. (24 October 2026, 00:23:58 +0200)
+
+## 24 October 2026, 00:51:37 +0200 : Prompt
+
+<!-- feedback-event:63c90a4c474bde14c60aa926cc2aa60ea6c709e1d8bb0f834bc52d940fce328e (24 October 2026, 00:51:37 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (24 October 2026, 00:51:37 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:51:37 +0200)
+
+> <task-notification> (24 October 2026, 00:51:37 +0200)
+> <task-id>bgdya2rtj</task-id> (24 October 2026, 00:51:37 +0200)
+> <summary>Monitor event: "Watch the Knowledge service log for passes and key batches"</summary> (24 October 2026, 00:51:37 +0200)
+> <event>[Monitor expired after 30m with 1 event delivered. Re-arm it if you still need the watch.]</event> (24 October 2026, 00:51:37 +0200)
+> </task-notification> (24 October 2026, 00:51:37 +0200)
+
+## 24 October 2026, 00:51:55 +0200 : Iteration
+
+<!-- feedback-event:f1dd48925833ff11ec4d4156cd680f26d30b5ad21a49695dfec733f39adb7654 (24 October 2026, 00:51:55 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 00:51:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:51:55 +0200)
+
+> Après 30 minutes, le service n'a soumis aucun lot et n'a rien écrit dans son journal : c'est un échec silencieux. Je lance le cycle à la main pour en voir la cause. (24 October 2026, 00:51:55 +0200)
+
+## 24 October 2026, 00:52:36 +0200 : Iteration
+
+<!-- feedback-event:63ce9b0847059967f0fc5cdb4a731deb602acfd86bbc671739c5ee6bc23e794a (24 October 2026, 00:52:36 +0200) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (24 October 2026, 00:52:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (24 October 2026, 00:52:36 +0200)
+
+> Le service est relancé avec la trace de ses tâches. Un lot de 2 000 sections (environ 2,67 $) est déjà parti à la main. J'attends le premier cycle automatique, prévu dans 10 minutes, pour savoir si le blocage revient. (24 October 2026, 00:52:36 +0200)
