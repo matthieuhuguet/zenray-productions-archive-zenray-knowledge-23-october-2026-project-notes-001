@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-25T14:08:54.816Z",
+ "scannedAt": "2026-10-25T14:31:50.562Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -79,8 +79,8 @@
    "provider": "claude",
    "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
    "title": "zenray argent",
-   "updatedAt": "2026-10-25T14:04:12.731Z",
-   "bytes": 38366,
+   "updatedAt": "2026-10-25T14:26:10.292Z",
+   "bytes": 38160,
    "boundProject": "qlmarkdown-designs-25-october-2026"
   },
   {
