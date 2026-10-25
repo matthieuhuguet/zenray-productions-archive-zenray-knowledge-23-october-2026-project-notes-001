@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-25T11:26:24.766Z",
+ "scannedAt": "2026-10-25T11:37:25.195Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -21,6 +21,22 @@
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 4,
+   "work": 0,
+   "prompts": 2,
+   "first": "2026-10-25T11:28:07.488Z",
+   "last": "2026-10-25T11:32:12.254Z",
+   "strength": "strong",
+   "conversationId": "claude:80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
+   "provider": "claude",
+   "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
+   "title": "Chicorée avantages/inconvénients et citation lion",
+   "updatedAt": "2026-10-25T11:37:02.065Z",
+   "bytes": 38327,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
    "lines": 6,
    "work": 0,
    "prompts": 0,
@@ -31,8 +47,8 @@
    "provider": "claude",
    "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
    "title": "zenray calendar plan",
-   "updatedAt": "2026-10-25T11:25:50.066Z",
-   "bytes": 38219,
+   "updatedAt": "2026-10-25T11:34:49.680Z",
+   "bytes": 38213,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
