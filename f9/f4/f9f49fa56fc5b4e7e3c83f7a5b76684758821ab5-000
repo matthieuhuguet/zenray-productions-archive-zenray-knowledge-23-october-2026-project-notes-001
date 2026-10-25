@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-25T11:37:25.195Z",
+ "scannedAt": "2026-10-25T14:08:54.816Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "80b6c85a-fcd0-427a-a4c6-75b9f9c24ff5",
    "title": "Chicorée avantages/inconvénients et citation lion",
-   "updatedAt": "2026-10-25T11:37:02.065Z",
-   "bytes": 38327,
+   "updatedAt": "2026-10-25T13:56:04.497Z",
+   "bytes": 38383,
    "boundProject": null
   },
   {
@@ -66,6 +66,22 @@
    "updatedAt": "2026-10-23T17:39:34.036Z",
    "bytes": 38450,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-25T13:50:01.282Z",
+   "last": "2026-10-25T13:50:01.282Z",
+   "strength": "weak",
+   "conversationId": "claude:49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "provider": "claude",
+   "sessionId": "49b7cc73-992e-4b7f-a693-9e6a0cda48b3",
+   "title": "zenray argent",
+   "updatedAt": "2026-10-25T14:04:12.731Z",
+   "bytes": 38366,
+   "boundProject": "qlmarkdown-designs-25-october-2026"
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
