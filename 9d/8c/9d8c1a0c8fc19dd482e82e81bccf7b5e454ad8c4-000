@@ -4391,3 +4391,54 @@
 > ```bash (24 October 2026, 01:48:09 +0200)
 > node /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/scripts/Knowledge/Keys.mjs status (24 October 2026, 01:48:09 +0200)
 > ``` (24 October 2026, 01:48:09 +0200)
+
+## 25 October 2026, 11:53:02 +0100 : Prompt
+
+<!-- feedback-event:378d96ff65897f7785b2dbe145a2eb260275d64ae6a0089f64445681e902c808 (25 October 2026, 11:53:02 +0100) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (25 October 2026, 11:53:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (25 October 2026, 11:53:02 +0100)
+
+> <task-notification> (25 October 2026, 11:53:02 +0100)
+> <task-id>bgdya2rtj</task-id> (25 October 2026, 11:53:02 +0100)
+> <task-id>b0g239ctp</task-id> (25 October 2026, 11:53:02 +0100)
+> <task-id>b8suqio92</task-id> (25 October 2026, 11:53:02 +0100)
+> <task-id>__orphan_summary__:shell</task-id> (25 October 2026, 11:53:02 +0100)
+> <status>stopped</status> (25 October 2026, 11:53:02 +0100)
+> <summary>3 background shell command tasks didn't finish before the previous session ended. Task ids: bgdya2rtj, b0g239ctp, b8suqio92.</summary> (25 October 2026, 11:53:02 +0100)
+> <note>No completion record was found for them in the previous session. They may have been stopped (via the UI, Monitor timeout, or agent teardown — these leave no transcript marker), or they may have been running when the previous Claude Code process exited. They have been marked stopped. Task ids in this notification beginning with "__orphan_summary" are internal scan markers, not tasks.</note> (25 October 2026, 11:53:02 +0100)
+> </task-notification> (25 October 2026, 11:53:02 +0100)
+
+## 25 October 2026, 11:53:10 +0100 : Prompt
+
+<!-- feedback-event:3cb1fa71e3724e8fa8cb85a141fda7e4050914cf78a2ed702033265c3189285e (25 October 2026, 11:53:10 +0100) -->
+- Project: zenray-knowledge-23-october-2026; kind: prompt. (25 October 2026, 11:53:10 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (25 October 2026, 11:53:10 +0100)
+
+> Du coup, il en est où le projet ? (25 October 2026, 11:53:10 +0100)
+
+## 25 October 2026, 11:53:28 +0100 : Iteration
+
+<!-- feedback-event:cf48076d626b0ee10f810c78ea50852386ee9b1f343731bddcd3cd3e2e053158 (25 October 2026, 11:53:28 +0100) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (25 October 2026, 11:53:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (25 October 2026, 11:53:28 +0100)
+
+> Les clés sont finies (100 %, 59,84 $ dépensés). Je relance les deux bancs promis pour mesurer leur effet. (25 October 2026, 11:53:28 +0100)
+
+## 25 October 2026, 11:57:38 +0100 : Iteration
+
+<!-- feedback-event:8b906668621550d2af2d8b87940f2241481b4ac3ac94d4563d4b914d76acea38 (25 October 2026, 11:57:38 +0100) -->
+- Project: zenray-knowledge-23-october-2026; kind: iteration. (25 October 2026, 11:57:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/11264bd4-8a19-4e76-b9be-dc012304e419.jsonl. (25 October 2026, 11:57:38 +0100)
+
+> La génération des questions est terminée, mais les mesures ne montrent pas de gain net au-delà du bruit. Toutes les sections du Mac ont reçu leurs questions générées, sauf 135 que Sonnet a refusées deux fois et qui sont désormais écartées. La dépense s'élève à 59,84 $ sur les 90 $ prévus. Le service `com.zenray.knowledge` tourne toujours : il rafraîchit l'index toutes les 30 minutes et, comme il n'y a plus rien en attente, il ne relancera Sonnet que pour les fichiers nouveaux ou modifiés. (25 October 2026, 11:57:38 +0100)
+>
+> | Ce que tu voulais | Où on en est | Preuve | (25 October 2026, 11:57:38 +0100)
+> |---|---|---| (25 October 2026, 11:57:38 +0100)
+> | Toutes les questions dressées pour tout le Mac | Fait | 43 299 sections sur 43 434 ont leurs questions, 135 sont écartées après deux refus | (25 October 2026, 11:57:38 +0100)
+> | Rester dans le budget de 100 $ | Fait | 59,84 $ dépensés, le plafond de 90 $ n'a pas été atteint | (25 October 2026, 11:57:38 +0100)
+> | Suivre chaque nouveau fichier | Fait | Le service est actif et son dernier cycle date de 10h21 | (25 October 2026, 11:57:38 +0100)
+> | Retrouver la bonne réponse à 99,9 % | Pas atteint | Bonne section dans le top 5 : 70 % ; bon fichier : 85 % ; questions de Matthieu1 : 91 % | (25 October 2026, 11:57:38 +0100)
+>
+> Ces questions générées n'ont pas fait progresser ces chiffres de façon mesurable : entre avant et après, l'écart reste dans le bruit de ±10 % de la batterie de 40 questions. Le vrai gain de la V3 est venu plus tôt, quand Sonnet a remplacé Haiku pour classer les candidats. (25 October 2026, 11:57:38 +0100)
+>
+> Ce qui limite maintenant, c'est la première étape, celle qui retient les candidats par les mots (40 au plus). Quand la question et la note n'emploient pas les mêmes mots, la bonne note n'entre même pas dans ce lot. Le test le moins cher consiste à élargir le lot à 40 candidats pris dans Memory seul, une variante déjà mesurée à 82,5 % (contre 72,5 %) avant le reclassement. Une piste plus lourde serait une recherche par le sens appliquée aux questions générées. (25 October 2026, 11:57:38 +0100)
