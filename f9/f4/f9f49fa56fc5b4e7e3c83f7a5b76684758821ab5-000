@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-26T09:51:36.611Z",
+ "scannedAt": "2026-10-26T10:14:33.027Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -72,6 +72,38 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
+   "first": "2026-10-25T18:18:59.950Z",
+   "last": "2026-10-25T18:18:59.950Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-26T10:11:25.603Z",
+   "bytes": 12419970,
+   "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-26T10:04:03.981Z",
+   "last": "2026-10-26T10:04:03.981Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T10:06:09.864Z",
+   "bytes": 38410,
+   "boundProject": null
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-10-25T13:50:01.282Z",
    "last": "2026-10-25T13:50:01.282Z",
    "strength": "weak",
@@ -82,22 +114,6 @@
    "updatedAt": "2026-10-26T09:50:29.756Z",
    "bytes": 4459002,
    "boundProject": "qlmarkdown-designs-25-october-2026"
-  },
-  {
-   "projectId": "zenray-knowledge-23-october-2026",
-   "lines": 2,
-   "work": 0,
-   "prompts": 1,
-   "first": "2026-10-25T18:18:59.950Z",
-   "last": "2026-10-25T18:18:59.950Z",
-   "strength": "weak",
-   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "provider": "claude",
-   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "title": "speech to text claude",
-   "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38407,
-   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
