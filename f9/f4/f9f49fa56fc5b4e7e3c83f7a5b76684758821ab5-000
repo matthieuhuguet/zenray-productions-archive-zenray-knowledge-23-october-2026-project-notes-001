@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-26T14:06:47.156Z",
+ "scannedAt": "2026-10-26T20:11:00.713Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -18,6 +18,22 @@
    "updatedAt": "2026-10-25T10:57:44.128Z",
    "bytes": 38273,
    "boundProject": "zenray-knowledge-23-october-2026"
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 7,
+   "work": 0,
+   "prompts": 3,
+   "first": "2026-10-26T12:20:23.308Z",
+   "last": "2026-10-26T19:59:40.327Z",
+   "strength": "strong",
+   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "provider": "claude",
+   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
+   "title": "zenray meshes",
+   "updatedAt": "2026-10-26T20:10:09.888Z",
+   "bytes": 38284,
+   "boundProject": "zenray-meshes"
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -104,6 +120,22 @@
    "lines": 2,
    "work": 0,
    "prompts": 1,
+   "first": "2026-10-26T17:39:46.284Z",
+   "last": "2026-10-26T17:39:46.284Z",
+   "strength": "weak",
+   "conversationId": "claude:b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "provider": "claude",
+   "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
+   "title": "zenray sfx",
+   "updatedAt": "2026-10-26T19:31:57.440Z",
+   "bytes": 38493,
+   "boundProject": "zenray-sfx-25-october-2026"
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
    "first": "2026-10-25T13:50:01.282Z",
    "last": "2026-10-25T13:50:01.282Z",
    "strength": "weak",
@@ -119,17 +151,17 @@
    "projectId": "zenray-knowledge-23-october-2026",
    "lines": 1,
    "work": 0,
-   "prompts": 0,
-   "first": "2026-10-26T12:20:23.308Z",
-   "last": "2026-10-26T12:20:23.308Z",
+   "prompts": 1,
+   "first": "2026-10-26T15:10:03.405Z",
+   "last": "2026-10-26T15:10:03.405Z",
    "strength": "weak",
-   "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "provider": "claude",
-   "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
-   "title": "zenray meshes",
-   "updatedAt": "2026-10-26T14:01:21.234Z",
-   "bytes": 404617067,
-   "boundProject": "zenray-meshes"
+   "conversationId": "codex:01a178bf-e894-7953-ae90-19152837f180",
+   "provider": "codex",
+   "sessionId": "01a178bf-e894-7953-ae90-19152837f180",
+   "title": "Conversation codex 01a178bf",
+   "updatedAt": "2026-10-26T15:36:25.867Z",
+   "bytes": 3047972,
+   "boundProject": "zenray-website-26-october-2026"
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
