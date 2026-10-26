@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-26T11:43:23.824Z",
+ "scannedAt": "2026-10-26T12:02:26.779Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -127,8 +127,8 @@
    "provider": "codex",
    "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
    "title": "Conversation codex 01a1779c",
-   "updatedAt": "2026-10-26T11:38:24.902Z",
-   "bytes": 7848535,
+   "updatedAt": "2026-10-26T12:02:15.705Z",
+   "bytes": 10516220,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
