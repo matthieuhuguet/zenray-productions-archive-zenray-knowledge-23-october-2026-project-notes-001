@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-10-28T16:08:26.015Z",
+ "scannedAt": "2026-10-28T16:55:59.852Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-28T15:58:03.379Z",
-   "bytes": 38084,
+   "updatedAt": "2026-10-28T16:55:46.660Z",
+   "bytes": 611614740,
    "boundProject": "zenray-meshes"
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-28T11:54:35.035Z",
-   "bytes": 38529,
+   "updatedAt": "2026-10-28T16:39:09.440Z",
+   "bytes": 38471,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
