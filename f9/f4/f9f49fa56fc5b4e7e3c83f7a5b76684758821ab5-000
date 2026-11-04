@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-11-04T12:17:32.022Z",
+ "scannedAt": "2026-11-04T18:18:23.296Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -81,22 +81,6 @@
    "title": "Chicorée avantages/inconvénients et citation lion",
    "updatedAt": "2026-10-26T09:50:29.755Z",
    "bytes": 3784184,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-knowledge-23-october-2026",
-   "lines": 3,
-   "work": 0,
-   "prompts": 3,
-   "first": "2026-10-27T22:45:23.523Z",
-   "last": "2026-10-27T23:01:04.106Z",
-   "strength": "strong",
-   "conversationId": "codex:01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
-   "provider": "codex",
-   "sessionId": "01a17f7d-cb54-7c21-8c4b-78a7b22caa76",
-   "title": "Conversation codex 01a17f7d",
-   "updatedAt": "2026-10-28T10:13:00.461Z",
-   "bytes": 45303381,
    "boundProject": null
   },
   {
