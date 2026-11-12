@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-knowledge-23-october-2026",
- "scannedAt": "2026-11-11T23:54:20.273Z",
+ "scannedAt": "2026-11-12T05:55:34.314Z",
  "conversations": [
   {
    "projectId": "zenray-knowledge-23-october-2026",
@@ -114,6 +114,22 @@
    "updatedAt": "2026-10-23T17:39:34.036Z",
    "bytes": 38450,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-knowledge-23-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-12T01:00:37.737Z",
+   "last": "2026-11-12T01:00:37.737Z",
+   "strength": "weak",
+   "conversationId": "claude:e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "provider": "claude",
+   "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "title": "excellent zenray audio et fonts",
+   "updatedAt": "2026-11-12T01:21:16.852Z",
+   "bytes": 276339,
+   "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
    "projectId": "zenray-knowledge-23-october-2026",
